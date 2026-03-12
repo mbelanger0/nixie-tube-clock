@@ -1,0 +1,988 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5cde0a01-eb29-48a0-b347-03d071032932")
+	(paper "A4")
+	(lib_symbols
+		(symbol "nixies-us:IN-14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "N"
+				(at -2.54 18.415 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "IN-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nixies-us_IN-14"
+				(at 0.762 3.81 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*IN-14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IN-14_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -13.335) (xy -5.08 10.795)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -13.335) (xy 7.62 10.795)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IN-14_1_1"
+				(arc
+					(start -5.08 10.795)
+					(mid 1.27 17.145)
+					(end 7.62 10.795)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -13.335)
+					(mid 1.27 -19.685)
+					(end -5.08 -13.335)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -12.7 0)
+					(length 2.54)
+					(name "0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "LHDP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "LHDP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "RHDP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "RHDP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "nixies-us:IN-14")
+		(at 125.73 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d1b2e1c-0602-4c54-9311-af7fd787a1f2")
+		(property "Reference" "N3"
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "IN-14"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nixies-us_IN-14"
+			(at 126.492 85.09 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "979d3717-4d1f-404f-8bec-0b87cbd74aa8")
+		)
+		(pin "5"
+			(uuid "f7fa2e8c-ac6e-4a96-84ef-83e2710faf35")
+		)
+		(pin "0"
+			(uuid "1c791f36-9470-48bc-a024-fc9426539ad4")
+		)
+		(pin "RHDP"
+			(uuid "23977dc0-2c8c-4caa-ad49-005b77f88c0d")
+		)
+		(pin "3"
+			(uuid "67ab488a-2555-4744-9bfd-a63796e2ae1a")
+		)
+		(pin "LHDP"
+			(uuid "5b8a4516-e92f-4842-85bd-8eaab65a4aa3")
+		)
+		(pin "1"
+			(uuid "89fa192d-810d-4ca6-9389-d7046d12dbef")
+		)
+		(pin "4"
+			(uuid "ae0d3b44-2f07-4a66-963d-af52f1951fbc")
+		)
+		(pin "2"
+			(uuid "145604f3-3aae-45a5-a7be-41c0e64a741a")
+		)
+		(pin "7"
+			(uuid "857d9d9e-906e-4688-8594-9b6a325f515b")
+		)
+		(pin "6"
+			(uuid "f64c6b7b-1fa5-4961-9838-4ccdd5733146")
+		)
+		(pin "9"
+			(uuid "62cf5fe4-742f-4094-88fb-4293d210f3c1")
+		)
+		(pin "A"
+			(uuid "06834aec-4003-47c5-a7dd-9d3b9225e350")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "N3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nixies-us:IN-14")
+		(at 196.85 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e37307-cbac-4e97-a170-8d51b7091cd1")
+		(property "Reference" "N5"
+			(at 198.12 68.58 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "IN-14"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nixies-us_IN-14"
+			(at 197.612 83.82 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "192fb6bf-c505-4f76-93ad-d1c7a6810040")
+		)
+		(pin "5"
+			(uuid "a54b3884-38bd-4540-94f3-4d495effa795")
+		)
+		(pin "0"
+			(uuid "5a3aa8c4-9875-4d61-b2ea-62bbaffa9cda")
+		)
+		(pin "RHDP"
+			(uuid "d16cdec1-75e8-4dc7-a850-ace193fedf3f")
+		)
+		(pin "3"
+			(uuid "5c9c6b4d-eb29-47fa-a2d2-7d3352c0c782")
+		)
+		(pin "LHDP"
+			(uuid "84f27fbd-092f-4f46-a067-ae76b5e8c333")
+		)
+		(pin "1"
+			(uuid "bb24df1e-6f5c-4e05-86fe-79f75c1cee12")
+		)
+		(pin "4"
+			(uuid "9d50379e-00f1-414b-8d38-216b84dab0dd")
+		)
+		(pin "2"
+			(uuid "2ea3970d-c5ff-4bfd-bff9-9e27b8c7d246")
+		)
+		(pin "7"
+			(uuid "8002a262-fab8-4ecb-bc87-56a819889fb1")
+		)
+		(pin "6"
+			(uuid "8f3513ae-8266-4c1c-9cca-d9001f5bf890")
+		)
+		(pin "9"
+			(uuid "90001e39-c538-4bf9-9b93-f7bf3e8e4c7f")
+		)
+		(pin "A"
+			(uuid "fbd37d57-c6fc-4ccd-b230-fefdbe952e18")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "N5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nixies-us:IN-14")
+		(at 231.14 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1d5fd3e-9d69-416a-a446-1eec3a286fba")
+		(property "Reference" "N6"
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "IN-14"
+			(at 231.14 87.63 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nixies-us_IN-14"
+			(at 231.902 83.82 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cdbea87b-7e3d-4b4f-a3c8-9d82f44e0bbd")
+		)
+		(pin "5"
+			(uuid "cec536b3-c62e-4a2d-bd86-3cc68dd53935")
+		)
+		(pin "0"
+			(uuid "bd0cf700-00ab-4b57-8bd2-e4c2ff0703ec")
+		)
+		(pin "RHDP"
+			(uuid "61582381-9d47-4e1a-96ff-49354fd0b9cb")
+		)
+		(pin "3"
+			(uuid "9d938266-588d-4ff2-bd66-9b8b0c80b562")
+		)
+		(pin "LHDP"
+			(uuid "34d3620a-04c2-4ce0-9d7a-da9e8c246c63")
+		)
+		(pin "1"
+			(uuid "612d4663-a339-450a-bd1e-c750c54ba2c0")
+		)
+		(pin "4"
+			(uuid "c1f5c8b6-1e14-48ba-b44f-1d418779fa58")
+		)
+		(pin "2"
+			(uuid "87f60dd9-72d3-4d4a-bda4-7b6233795f73")
+		)
+		(pin "7"
+			(uuid "67b51162-536b-47cb-a1e0-bd69e7af0545")
+		)
+		(pin "6"
+			(uuid "8c2b2140-a302-4a82-b95e-cb924956dcf1")
+		)
+		(pin "9"
+			(uuid "082493be-97f3-4eba-95a5-2657fe8635ec")
+		)
+		(pin "A"
+			(uuid "9cba9c6b-8053-4e39-8d6a-7dde5433e2ef")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nixies-us:IN-14")
+		(at 91.44 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6478d05-e345-4506-8e94-1c5f258830c3")
+		(property "Reference" "N2"
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "IN-14"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nixies-us_IN-14"
+			(at 92.202 85.09 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "87212e1f-4770-479b-b6ec-35128dc7c1a1")
+		)
+		(pin "5"
+			(uuid "67ab7bde-99ed-4292-91c4-b22fd4be9907")
+		)
+		(pin "0"
+			(uuid "e203dea6-c9eb-4205-a1f2-a601e5216e46")
+		)
+		(pin "RHDP"
+			(uuid "f2a3710f-689e-4e38-83ca-94e8e229ee65")
+		)
+		(pin "3"
+			(uuid "4a37045d-8ec4-4264-af48-cc1389f5fd25")
+		)
+		(pin "LHDP"
+			(uuid "27ab724a-af3d-487c-a7fb-853d80200c68")
+		)
+		(pin "1"
+			(uuid "5416317f-48f5-4c94-a76b-318a4003a6c3")
+		)
+		(pin "4"
+			(uuid "b758eaa9-e8d0-452d-a488-9c4f95faea6a")
+		)
+		(pin "2"
+			(uuid "542e707d-bcca-4db4-9832-5d14790a1184")
+		)
+		(pin "7"
+			(uuid "5231455e-0a6e-4f09-896c-73dbbebe52ed")
+		)
+		(pin "6"
+			(uuid "9cdbc75d-34c3-49fe-abcf-064a290d2f99")
+		)
+		(pin "9"
+			(uuid "e8c13b47-2bc9-4a84-8ee7-786a72e79522")
+		)
+		(pin "A"
+			(uuid "bfae2692-b135-486f-9fe0-7494dcbf77e5")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nixies-us:IN-14")
+		(at 161.29 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aba80dcc-8d10-4087-a059-f61c169186a2")
+		(property "Reference" "N4"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "IN-14"
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nixies-us_IN-14"
+			(at 162.052 83.82 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "28a2a1b2-97f8-49bb-ba47-73e2aae986fe")
+		)
+		(pin "5"
+			(uuid "909de73f-878d-4553-9b19-9ee5241e979b")
+		)
+		(pin "0"
+			(uuid "5557a472-80ef-424c-bfbf-554d6834e56d")
+		)
+		(pin "RHDP"
+			(uuid "cd9154ea-ead7-4853-874e-7eaf6647a416")
+		)
+		(pin "3"
+			(uuid "8606978e-cfab-41d7-a2ad-c713f176bc4d")
+		)
+		(pin "LHDP"
+			(uuid "a2c518ed-54ed-4385-bb0a-67d526731466")
+		)
+		(pin "1"
+			(uuid "82b5b6ef-144e-4a7b-a9b0-a902d73f2a4b")
+		)
+		(pin "4"
+			(uuid "60e17f7d-07d6-4984-939b-bd206f01bdd9")
+		)
+		(pin "2"
+			(uuid "8dfe6632-c515-4d42-9bcc-673de48f1071")
+		)
+		(pin "7"
+			(uuid "8d0a64c4-bbd3-4bd2-b7b9-11817e698d53")
+		)
+		(pin "6"
+			(uuid "f0fa4f32-df43-4f2f-9927-f900063a4279")
+		)
+		(pin "9"
+			(uuid "16caaa4c-b0ee-4c24-ae57-1669fe07b1a6")
+		)
+		(pin "A"
+			(uuid "3f8e378d-6ef3-4c79-be90-c92fdaddc717")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "N4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nixies-us:IN-14")
+		(at 55.88 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa3dbd5c-b34a-433b-b6b1-6627a9f0467a")
+		(property "Reference" "N1"
+			(at 57.15 69.85 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "IN-14"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "nixies-us_IN-14"
+			(at 56.642 85.09 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a13df68c-492c-4225-a429-0ffeedec7f41")
+		)
+		(pin "5"
+			(uuid "8efb4753-9bf7-4e99-bfe2-edb81676fd72")
+		)
+		(pin "0"
+			(uuid "b9ab2f49-d73a-4e41-aa7d-0c7c454d9a07")
+		)
+		(pin "RHDP"
+			(uuid "92e17887-a30b-4a7a-97ee-ec546147ccf8")
+		)
+		(pin "3"
+			(uuid "332f6dcb-045a-45a6-a11d-28e6c077b9a1")
+		)
+		(pin "LHDP"
+			(uuid "2f4c3db2-acfa-4f2a-ac1d-65f528ec849e")
+		)
+		(pin "1"
+			(uuid "9b87060c-a0a6-41fc-a6fa-bf9c4718fbef")
+		)
+		(pin "4"
+			(uuid "d9d309c4-724d-4d13-a500-be40b34a4426")
+		)
+		(pin "2"
+			(uuid "a0353ca9-c023-41c2-ad36-d884b8cb1192")
+		)
+		(pin "7"
+			(uuid "7b548a97-52d8-41ad-ae44-892b17dbd176")
+		)
+		(pin "6"
+			(uuid "75404ae2-7630-4f72-9c91-6c5145d8dfa8")
+		)
+		(pin "9"
+			(uuid "9ae3011f-eac2-485f-9838-442bad395e45")
+		)
+		(pin "A"
+			(uuid "58022615-2620-4ed6-b5c3-98870df5ec91")
+		)
+		(instances
+			(project ""
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

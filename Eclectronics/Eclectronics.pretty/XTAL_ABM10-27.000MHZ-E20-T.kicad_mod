@@ -1,0 +1,226 @@
+(footprint "XTAL_ABM10-27.000MHZ-E20-T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.9 -2.36 0)
+		(layer "F.SilkS")
+		(uuid "755bd06f-954a-45d3-8a97-8e6127c5c78a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_ABM10-27.000MHZ-E20-T"
+		(at 15.235 2.36 0)
+		(layer "F.Fab")
+		(uuid "bb57d044-dda6-4874-9bb3-a3e3bc000f93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95dacbe6-b049-42a7-9429-1264d6f63c99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d98c112f-d52e-4c16-b0c5-4afa8c058402")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a0687b8-3ce3-4059-b627-bb98767a6314")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.055)
+		(end -1 0.055)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf5e3d45-242a-4dc7-8706-927246525397")
+	)
+	(fp_line
+		(start 1 -0.055)
+		(end 1 0.055)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7d8ed4f-f414-4587-9b3a-1de91db35311")
+	)
+	(fp_circle
+		(center -1.775 -0.825)
+		(end -1.675 -0.825)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f4cf5852-9099-4d32-bc0c-c0ddd4e6a1d7")
+	)
+	(fp_line
+		(start -1.275 -1.525)
+		(end -1.275 1.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce02fe3d-0356-4dd9-b701-5e30f415467f")
+	)
+	(fp_line
+		(start -1.275 -1.525)
+		(end 1.275 -1.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e1ba8ca-9b3b-4b0a-8d9c-458cbd3a044e")
+	)
+	(fp_line
+		(start 1.275 -1.525)
+		(end 1.275 1.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "faa60c0b-7b27-4945-8eb0-5c0827dadff1")
+	)
+	(fp_line
+		(start 1.275 1.525)
+		(end -1.275 1.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0eb8b653-f83c-405e-81b4-0f215b847e17")
+	)
+	(fp_line
+		(start -1 -1.25)
+		(end -1 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c101b26b-0f4f-47f4-89b8-6371afafafef")
+	)
+	(fp_line
+		(start -1 -1.25)
+		(end 1 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7cc0e52a-6330-41b4-ae2b-4a08958d2ac4")
+	)
+	(fp_line
+		(start 1 -1.25)
+		(end 1 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cff4c10b-568e-4e66-a2ae-00060f61db83")
+	)
+	(fp_line
+		(start 1 1.25)
+		(end -1 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f70b847-9c00-451c-829c-d3552f37cd4a")
+	)
+	(fp_circle
+		(center -1.775 -0.825)
+		(end -1.675 -0.825)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "52ef4f29-2119-466c-b22a-4391e4f4eb19")
+	)
+	(pad "1" smd rect
+		(at -0.625 -0.825)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "ee0937f4-d704-4465-b2a0-d08a17256f43")
+	)
+	(pad "2" smd rect
+		(at -0.625 0.825)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "fce3362d-824b-4a58-93df-912201ffd34e")
+	)
+	(pad "3" smd rect
+		(at 0.625 0.825)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "330aae98-709f-4642-a2c9-59c2548e9385")
+	)
+	(pad "4" smd rect
+		(at 0.625 -0.825)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "7593c239-08e6-4969-8015-6f9242b9801b")
+	)
+	(model "${KIPRJMOD}/../Eclectronics/3dshapes/ABM10-27.000MHZ-E20-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
