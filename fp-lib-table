@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "HV5122PG-G")(type "KiCad")(uri "${KIPRJMOD}/HV5122PG-G/HV5122PG-G.pretty")(options "")(descr ""))
   (lib (name "Eclectronics")(type "KiCad")(uri "${KIPRJMOD}/Eclectronics/Eclectronics.pretty")(options "")(descr ""))
+  (lib (name "eclectronics_nixie_footprints")(type "KiCad")(uri "${KIPRJMOD}/eclectronics_nixie_footprints.pretty")(options "")(descr ""))
 )

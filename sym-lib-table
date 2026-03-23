@@ -1,7 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "HV5122PG-G")(type "KiCad")(uri "${KIPRJMOD}/HV5122PG-G/HV5122PG-G.kicad_sym")(options "")(descr ""))
   (lib (name "nixies-us")(type "Legacy")(uri "${KIPRJMOD}/nixies-us/nixies-us.lib")(options "")(descr ""))
   (lib (name "Eclectronics")(type "KiCad")(uri "${KIPRJMOD}/Eclectronics/Eclectronics.kicad_sym")(options "")(descr ""))
   (lib (name "NixieSupply5vto160vDCMBoost-rescue")(type "Legacy")(uri "${KIPRJMOD}/NixieSupply/NixieSupply5vto160vDCMBoost-rescue.lib")(options "")(descr ""))
+  (lib (name "eclectronics_nixie_lib")(type "KiCad")(uri "${KIPRJMOD}/eclectronics_nixie_lib.kicad_sym")(options "")(descr ""))
 )
