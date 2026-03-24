@@ -1290,6 +1290,606 @@
 			(embedded_fonts no)
 		)
 	)
+	(label "N1.8"
+		(at 35.56 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bf797bc-05cf-4b5c-b855-a281f55ced4a")
+	)
+	(label "N6.1"
+		(at 242.57 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "155e3097-d190-48db-a319-ced02ff79411")
+	)
+	(label "N2.0"
+		(at 86.36 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "174fa150-4174-43e6-8909-43f0c762498f")
+	)
+	(label "N6.8"
+		(at 260.35 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1868d056-0a61-499e-9a76-fdd29691bf69")
+	)
+	(label "N4.7"
+		(at 170.18 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19860e35-c34a-464d-b90d-dd30ce95253b")
+	)
+	(label "N4.4"
+		(at 162.56 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f6da101-8ea2-45c5-9985-5b0ebab05101")
+	)
+	(label "N1.0"
+		(at 40.64 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ffd6f0e-e780-4dfa-8b1c-d2ced5872a94")
+	)
+	(label "N2.4"
+		(at 71.12 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23ce28b8-e911-4779-96c7-6025c59c9c71")
+	)
+	(label "N5.2"
+		(at 201.93 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2417998a-a67a-4aa4-9e4c-0d4523931a0f")
+	)
+	(label "N3.4"
+		(at 116.84 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b8cd687-6e0f-4b85-b2ea-d33c5790e526")
+	)
+	(label "N5.1"
+		(at 199.39 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2faaa7e0-0b8d-47ef-9169-13042f522add")
+	)
+	(label "N5.8"
+		(at 217.17 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32ef1fe0-7f07-414c-b2b8-770fd8e655a8")
+	)
+	(label "N2.6"
+		(at 76.2 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3539bcb4-0fd6-4b7b-a87c-4ad69f794688")
+	)
+	(label "N5.9"
+		(at 219.71 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37d69fa1-b5e7-4bdf-a30a-7fb36c36142a")
+	)
+	(label "N4.0"
+		(at 177.8 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39a399c5-bc3f-4398-84e3-4f6b44d9a846")
+	)
+	(label "N3.3"
+		(at 114.3 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ae5c290-f83c-43df-9437-21bd69dbf9b9")
+	)
+	(label "N5.4"
+		(at 207.01 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c508572-10d9-4b73-bbf3-1af969b71c58")
+	)
+	(label "N2.3"
+		(at 68.58 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d52ad31-ce02-4f26-9342-3219c0f517f9")
+	)
+	(label "N4.8"
+		(at 172.72 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5011e000-23b7-4555-b14a-b1811e40a493")
+	)
+	(label "N3.8"
+		(at 127 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53503c8b-bc16-4122-aee3-5d95291ec9df")
+	)
+	(label "N2.9"
+		(at 83.82 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5656f93d-808e-43d1-a25e-ce3efe21d855")
+	)
+	(label "N2.8"
+		(at 81.28 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "585ea62d-b48d-43d0-ae30-f36d4e72f6b8")
+	)
+	(label "N4.9"
+		(at 175.26 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66146c4f-228f-4cf3-a3f4-e26f499ae74b")
+	)
+	(label "N2.2"
+		(at 66.04 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68e92f60-5e8f-473a-bde8-d061bff357fb")
+	)
+	(label "N3.9"
+		(at 129.54 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68fe4710-bb1a-4eb0-a2dc-f5f31ec76d0b")
+	)
+	(label "N2.5"
+		(at 73.66 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70041e5b-aace-4f25-b3e0-502789a3ab56")
+	)
+	(label "N4.3"
+		(at 160.02 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71454c77-9bce-468d-b2b4-a0b723e45900")
+	)
+	(label "N3.1"
+		(at 109.22 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ccf1239-fb50-4f25-9eee-33281caa24cd")
+	)
+	(label "N1.6"
+		(at 30.48 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cf67f3e-df31-4888-8919-1387d7d4afab")
+	)
+	(label "N1.7"
+		(at 33.02 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fdeb36c-26d8-4284-8882-1e118cc39f88")
+	)
+	(label "N5.6"
+		(at 212.09 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8098b625-8c0f-4562-87ad-2bb41a8a254b")
+	)
+	(label "N5.0"
+		(at 222.25 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80e314d3-1306-4eb9-a79b-f3eaa3f0917c")
+	)
+	(label "N4.5"
+		(at 165.1 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83fe46b0-533b-4bc3-a336-5f0f959693e8")
+	)
+	(label "N1.5"
+		(at 27.94 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "888695e6-5420-4295-b941-b8f60079c061")
+	)
+	(label "N4.6"
+		(at 167.64 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "910b10ca-6024-4b37-b88d-978506df98be")
+	)
+	(label "N6.9"
+		(at 262.89 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9477ab66-3c1e-47be-862a-f177d04b93e7")
+	)
+	(label "N3.2"
+		(at 111.76 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e4a10c9-b486-4f19-a100-d7ab8eca0f74")
+	)
+	(label "N6.0"
+		(at 265.43 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1895b39-0998-4e73-9346-b07d9ed741ed")
+	)
+	(label "N1.4"
+		(at 25.4 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1b03cee-608e-4800-a70f-92a581a43f64")
+	)
+	(label "N5.5"
+		(at 209.55 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a603309c-858b-4991-8f08-39272dfd01a2")
+	)
+	(label "N5.3"
+		(at 204.47 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7a5d47b-cece-4a1a-a2c7-10a6635ef5eb")
+	)
+	(label "N1.2"
+		(at 20.32 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae917c95-ef23-4e1f-8dc1-6cc3cc234826")
+	)
+	(label "N6.6"
+		(at 255.27 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af8d9e3a-3037-4675-a614-43fda92dca55")
+	)
+	(label "N1.1"
+		(at 17.78 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2e506bc-9b42-404b-818f-06300780a6bc")
+	)
+	(label "N3.0"
+		(at 132.08 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be49b9f4-db38-496d-a794-dfbea892dd6f")
+	)
+	(label "N3.5"
+		(at 119.38 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c26d9dfb-2ed8-4c75-aa66-bdf06c1575bb")
+	)
+	(label "N6.7"
+		(at 257.81 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2b7916c-981e-4ce9-ad91-7c96d08202c3")
+	)
+	(label "N1.9"
+		(at 38.1 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d314c6f7-181f-4ce4-b4f5-7e84bc00ad8e")
+	)
+	(label "N5.7"
+		(at 214.63 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4bda251-3878-4e67-8b79-ae4ce8cc1f04")
+	)
+	(label "N2.1"
+		(at 63.5 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8df7e0c-5de8-4f6a-be65-9dc171d8868c")
+	)
+	(label "N4.2"
+		(at 157.48 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc9a9415-7807-4150-a3ce-2c61d603f2c1")
+	)
+	(label "N4.1"
+		(at 154.94 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e00c8530-b054-4afb-a349-f2d9025ae04e")
+	)
+	(label "N6.2"
+		(at 245.11 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e35e2a5a-3502-422b-bf58-309381f33e70")
+	)
+	(label "N6.5"
+		(at 252.73 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5e1a3dc-32fa-4bd3-b290-ae454b29338a")
+	)
+	(label "N6.3"
+		(at 247.65 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9c73718-70f2-4e5f-8ba6-ff41aaebdb37")
+	)
+	(label "N2.7"
+		(at 78.74 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef6cb19b-d9a3-409e-9a8a-e742acf7d0a2")
+	)
+	(label "N6.4"
+		(at 250.19 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2271717-d7eb-4a25-8386-6bc8dc124d4a")
+	)
+	(label "N1.3"
+		(at 22.86 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8cf9bd3-506c-490c-abe6-a725dc812076")
+	)
+	(label "N3.7"
+		(at 124.46 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd3eee93-c34a-4c1d-9168-b7d1d6d52ec4")
+	)
+	(label "N3.6"
+		(at 121.92 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "feea6bc6-cbd0-47a2-a2a5-dd568c203e41")
+	)
 	(symbol
 		(lib_id "electronics_nixie_lib:HV5122PG-G 32-Channel Shift Register ")
 		(at 93.98 77.47 0)
