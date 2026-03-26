@@ -1,4 +1,4 @@
-27448607032149680
+27420219332117419
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108290,6 +108290,27 @@ MCP1702T-3302E/CB
 3
 3
 carter_kicad_footprints
+SOT65P210X110-5N
+
+
+0
+5
+5
+carter_kicad_footprints
+SOT65P210X110-6N
+
+
+0
+6
+6
+carter_kicad_footprints
+SOT95P280X145-5N
+SOT-23 DBV 5-1
+Integrated Circuit
+0
+5
+5
+carter_kicad_footprints
 SOT96P240X115-3N
 DMG2305UX-7
 MOSFET (P-Channel)
@@ -108388,6 +108409,13 @@ HV5122PG-G
 44
 44
 eclectronics_nixie_footprints
+SOT95P280X145-5N
+SOT-23 DBV 5-1
+Integrated Circuit
+0
+5
+5
+eclectronics_nixie_footprints
 nixies-us-IN-3
 
 
@@ -108401,148 +108429,8 @@ nixies-us-IN-14
 0
 13
 13
-nixie-us
-nixies-us-IN-1
-MAY BE USED WITH SOCKET: U11
-MAY BE USED WITH SOCKET: U11
-0
-11
-11
-nixie-us
-nixies-us-IN-2-DSUB
-
-
-0
-11
-11
-nixie-us
-nixies-us-IN-3
-
-
-0
-2
-2
-nixie-us
-nixies-us-IN-4-DSUB
-MAY BE USED WITH SOCKET: PL31-P
-MAY BE USED WITH SOCKET: PL31-P
-0
-14
-14
-nixie-us
-nixies-us-IN-4-DSUB-SPARSE
-MAY BE USED WITH SOCKET: PL31-P
-MAY BE USED WITH SOCKET: PL31-P
-0
-11
-11
-nixie-us
-nixies-us-IN-6
-
-
-0
-2
-2
-nixie-us
-nixies-us-IN-8
-MAY BE USED WITH SOCKET: 11-PIN- RUSSIAN
-MAY BE USED WITH SOCKET: 11-PIN- RUSSIAN
-0
-11
-11
-nixie-us
-nixies-us-IN-8-2
-
-
-0
-12
-12
-nixie-us
-nixies-us-IN-8-DSUB
-MAY BE USED WITH SOCKET: 11-PIN- RUSSIAN
-MAY BE USED WITH SOCKET: 11-PIN- RUSSIAN
-0
-11
-11
-nixie-us
-nixies-us-IN-9
-
-
-0
-2
-2
-nixie-us
-nixies-us-IN-12
-MAY BE USED WITH SOCKET: SK-136
-MAY BE USED WITH SOCKET: SK-136
-0
-12
-12
-nixie-us
-nixies-us-IN-12-DSUB
-FOR USE WITH FEMALE D-SUB PINS
-FOR USE WITH FEMALE D-SUB PINS
-0
-12
-12
-nixie-us
-nixies-us-IN-12-DSUB-NOHOLE
-FOR USE WITH FEMALE D-SUB PINS
-FOR USE WITH FEMALE D-SUB PINS
-0
-12
-12
-nixie-us
-nixies-us-IN-13
-
-
-0
-3
-3
-nixie-us
-nixies-us-IN-14
-
-
-0
-13
-13
-nixie-us
-nixies-us-IN-16
-
-
-0
-13
-13
-nixie-us
-nixies-us-IN-17
-
-
-0
-11
-11
-nixie-us
-nixies-us-IN-18
-MAY BE USED WITH SOCKET: PL31-P
-MAY BE USED WITH SOCKET: PL31-P
-0
-14
-14
-nixie-us
-nixies-us-IN-18-8331
-MAY BE USED WITH SOCKET: PL31-P
-MAY BE USED WITH SOCKET: PL31-P
-0
-14
-14
-nixie-us
-nixies-us-IN-18-DSUB
-MAY BE USED WITH SOCKET: PL31-P
-MAY BE USED WITH SOCKET: PL31-P
-0
-14
-14
-nixie-us
-nixies-us-IN-19
+eclectronics_nixie_footprints
+nixies-us-IN-14-millmax
 
 
 0
