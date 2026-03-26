@@ -374,234 +374,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:LT1301"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LT1301"
-				(at 7.62 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/lt1301.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Micropower High Efficiency 5V/12V Step-Up DC/DC Converter for Flash Memory, DIP-8/SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "5v 12v dc converter boost"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LT1301_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LT1301_1_1"
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "SEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "SHDN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "ILIM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -12.7 90)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SENSE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "electronics_nixie_lib:HV5122PG-G 32-Channel Shift Register "
 			(pin_names
 				(offset 0.254)
@@ -1517,6 +1289,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1620,7 +1642,7 @@
 		)
 	)
 	(label "N1.8"
-		(at 148.59 80.01 0)
+		(at 144.78 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1630,7 +1652,7 @@
 		(uuid "0bf797bc-05cf-4b5c-b855-a281f55ced4a")
 	)
 	(label "N6.1"
-		(at 172.72 105.41 180)
+		(at 176.53 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1640,7 +1662,7 @@
 		(uuid "155e3097-d190-48db-a319-ced02ff79411")
 	)
 	(label "N2.0"
-		(at 90.17 77.47 180)
+		(at 93.98 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1650,7 +1672,7 @@
 		(uuid "174fa150-4174-43e6-8909-43f0c762498f")
 	)
 	(label "N6.8"
-		(at 172.72 123.19 180)
+		(at 176.53 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1660,7 +1682,7 @@
 		(uuid "1868d056-0a61-499e-9a76-fdd29691bf69")
 	)
 	(label "N4.7"
-		(at 231.14 82.55 0)
+		(at 227.33 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1670,7 +1692,7 @@
 		(uuid "19860e35-c34a-464d-b90d-dd30ce95253b")
 	)
 	(label "N4.4"
-		(at 231.14 90.17 0)
+		(at 227.33 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1680,7 +1702,7 @@
 		(uuid "1f6da101-8ea2-45c5-9985-5b0ebab05101")
 	)
 	(label "N1.0"
-		(at 148.59 100.33 0)
+		(at 144.78 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1690,7 +1712,7 @@
 		(uuid "1ffd6f0e-e780-4dfa-8b1c-d2ced5872a94")
 	)
 	(label "N2.4"
-		(at 90.17 87.63 180)
+		(at 93.98 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1700,7 +1722,7 @@
 		(uuid "23ce28b8-e911-4779-96c7-6025c59c9c71")
 	)
 	(label "N5.2"
-		(at 172.72 82.55 180)
+		(at 176.53 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1710,7 +1732,7 @@
 		(uuid "2417998a-a67a-4aa4-9e4c-0d4523931a0f")
 	)
 	(label "N3.4"
-		(at 90.17 113.03 180)
+		(at 93.98 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1720,7 +1742,7 @@
 		(uuid "2b8cd687-6e0f-4b85-b2ea-d33c5790e526")
 	)
 	(label "N5.1"
-		(at 172.72 80.01 180)
+		(at 176.53 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1729,8 +1751,18 @@
 		)
 		(uuid "2faaa7e0-0b8d-47ef-9169-13042f522add")
 	)
+	(label "SR_DATA_IN"
+		(at 53.34 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "305bd6ee-b905-46e0-9714-af6eeab13749")
+	)
 	(label "N5.8"
-		(at 172.72 97.79 180)
+		(at 176.53 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1740,7 +1772,7 @@
 		(uuid "32ef1fe0-7f07-414c-b2b8-770fd8e655a8")
 	)
 	(label "N2.6"
-		(at 90.17 92.71 180)
+		(at 93.98 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1749,8 +1781,18 @@
 		)
 		(uuid "3539bcb4-0fd6-4b7b-a87c-4ad69f794688")
 	)
+	(label "SR_CLK"
+		(at 144.78 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3560ba3a-72cb-44d7-b14b-6ceb8ea8b7a9")
+	)
 	(label "N5.9"
-		(at 172.72 100.33 180)
+		(at 176.53 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1760,7 +1802,7 @@
 		(uuid "37d69fa1-b5e7-4bdf-a30a-7fb36c36142a")
 	)
 	(label "N4.0"
-		(at 231.14 100.33 0)
+		(at 227.33 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1770,7 +1812,7 @@
 		(uuid "39a399c5-bc3f-4398-84e3-4f6b44d9a846")
 	)
 	(label "N3.3"
-		(at 90.17 110.49 180)
+		(at 93.98 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1780,7 +1822,7 @@
 		(uuid "3ae5c290-f83c-43df-9437-21bd69dbf9b9")
 	)
 	(label "N5.4"
-		(at 172.72 87.63 180)
+		(at 176.53 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1790,7 +1832,7 @@
 		(uuid "4c508572-10d9-4b73-bbf3-1af969b71c58")
 	)
 	(label "N2.3"
-		(at 90.17 85.09 180)
+		(at 93.98 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1800,7 +1842,7 @@
 		(uuid "4d52ad31-ce02-4f26-9342-3219c0f517f9")
 	)
 	(label "N4.8"
-		(at 231.14 80.01 0)
+		(at 227.33 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1810,7 +1852,7 @@
 		(uuid "5011e000-23b7-4555-b14a-b1811e40a493")
 	)
 	(label "N3.8"
-		(at 90.17 123.19 180)
+		(at 93.98 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1820,7 +1862,7 @@
 		(uuid "53503c8b-bc16-4122-aee3-5d95291ec9df")
 	)
 	(label "N2.9"
-		(at 90.17 100.33 180)
+		(at 93.98 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1830,7 +1872,7 @@
 		(uuid "5656f93d-808e-43d1-a25e-ce3efe21d855")
 	)
 	(label "N2.8"
-		(at 90.17 97.79 180)
+		(at 93.98 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1839,8 +1881,18 @@
 		)
 		(uuid "585ea62d-b48d-43d0-ae30-f36d4e72f6b8")
 	)
+	(label "SR_DATA_IN"
+		(at 144.78 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6265f469-8896-44ef-aeaa-a8ada4e79664")
+	)
 	(label "N4.9"
-		(at 231.14 77.47 0)
+		(at 227.33 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1850,7 +1902,7 @@
 		(uuid "66146c4f-228f-4cf3-a3f4-e26f499ae74b")
 	)
 	(label "N2.2"
-		(at 90.17 82.55 180)
+		(at 93.98 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1860,7 +1912,7 @@
 		(uuid "68e92f60-5e8f-473a-bde8-d061bff357fb")
 	)
 	(label "N3.9"
-		(at 90.17 125.73 180)
+		(at 93.98 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1870,7 +1922,7 @@
 		(uuid "68fe4710-bb1a-4eb0-a2dc-f5f31ec76d0b")
 	)
 	(label "N2.5"
-		(at 90.17 90.17 180)
+		(at 93.98 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1880,7 +1932,7 @@
 		(uuid "70041e5b-aace-4f25-b3e0-502789a3ab56")
 	)
 	(label "N4.3"
-		(at 231.14 92.71 0)
+		(at 227.33 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1890,7 +1942,7 @@
 		(uuid "71454c77-9bce-468d-b2b4-a0b723e45900")
 	)
 	(label "N3.1"
-		(at 90.17 105.41 180)
+		(at 93.98 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1900,7 +1952,7 @@
 		(uuid "7ccf1239-fb50-4f25-9eee-33281caa24cd")
 	)
 	(label "N1.6"
-		(at 148.59 85.09 0)
+		(at 144.78 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1910,7 +1962,7 @@
 		(uuid "7cf67f3e-df31-4888-8919-1387d7d4afab")
 	)
 	(label "N1.7"
-		(at 148.59 82.55 0)
+		(at 144.78 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1920,7 +1972,7 @@
 		(uuid "7fdeb36c-26d8-4284-8882-1e118cc39f88")
 	)
 	(label "N5.6"
-		(at 172.72 92.71 180)
+		(at 176.53 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1930,7 +1982,7 @@
 		(uuid "8098b625-8c0f-4562-87ad-2bb41a8a254b")
 	)
 	(label "N5.0"
-		(at 172.72 77.47 180)
+		(at 176.53 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1940,7 +1992,7 @@
 		(uuid "80e314d3-1306-4eb9-a79b-f3eaa3f0917c")
 	)
 	(label "N4.5"
-		(at 231.14 87.63 0)
+		(at 227.33 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1950,7 +2002,7 @@
 		(uuid "83fe46b0-533b-4bc3-a336-5f0f959693e8")
 	)
 	(label "N1.5"
-		(at 148.59 87.63 0)
+		(at 144.78 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1960,7 +2012,7 @@
 		(uuid "888695e6-5420-4295-b941-b8f60079c061")
 	)
 	(label "N4.6"
-		(at 231.14 85.09 0)
+		(at 227.33 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1970,7 +2022,7 @@
 		(uuid "910b10ca-6024-4b37-b88d-978506df98be")
 	)
 	(label "N6.9"
-		(at 172.72 125.73 180)
+		(at 176.53 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1980,7 +2032,7 @@
 		(uuid "9477ab66-3c1e-47be-862a-f177d04b93e7")
 	)
 	(label "N3.2"
-		(at 90.17 107.95 180)
+		(at 93.98 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1990,7 +2042,7 @@
 		(uuid "9e4a10c9-b486-4f19-a100-d7ab8eca0f74")
 	)
 	(label "N6.0"
-		(at 172.72 102.87 180)
+		(at 176.53 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2000,7 +2052,7 @@
 		(uuid "a1895b39-0998-4e73-9346-b07d9ed741ed")
 	)
 	(label "N1.4"
-		(at 148.59 90.17 0)
+		(at 144.78 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2010,7 +2062,7 @@
 		(uuid "a1b03cee-608e-4800-a70f-92a581a43f64")
 	)
 	(label "N5.5"
-		(at 172.72 90.17 180)
+		(at 176.53 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2020,7 +2072,7 @@
 		(uuid "a603309c-858b-4991-8f08-39272dfd01a2")
 	)
 	(label "N5.3"
-		(at 172.72 85.09 180)
+		(at 176.53 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2029,8 +2081,18 @@
 		)
 		(uuid "a7a5d47b-cece-4a1a-a2c7-10a6635ef5eb")
 	)
+	(label "SR_DATA_IN_3V3"
+		(at 33.02 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab7b0f04-85e3-45fc-9be3-ca14d8057f52")
+	)
 	(label "N1.2"
-		(at 148.59 95.25 0)
+		(at 144.78 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2040,7 +2102,7 @@
 		(uuid "ae917c95-ef23-4e1f-8dc1-6cc3cc234826")
 	)
 	(label "N6.6"
-		(at 172.72 118.11 180)
+		(at 176.53 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2050,7 +2112,7 @@
 		(uuid "af8d9e3a-3037-4675-a614-43fda92dca55")
 	)
 	(label "N1.1"
-		(at 148.59 97.79 0)
+		(at 144.78 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2060,7 +2122,7 @@
 		(uuid "b2e506bc-9b42-404b-818f-06300780a6bc")
 	)
 	(label "SR_DATA"
-		(at 148.59 130.81 0)
+		(at 144.78 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2070,7 +2132,7 @@
 		(uuid "bb27ea29-6a7d-41d6-81d6-a9f00ff70fee")
 	)
 	(label "N3.0"
-		(at 90.17 102.87 180)
+		(at 93.98 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2080,7 +2142,7 @@
 		(uuid "be49b9f4-db38-496d-a794-dfbea892dd6f")
 	)
 	(label "N3.5"
-		(at 90.17 115.57 180)
+		(at 93.98 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2089,8 +2151,18 @@
 		)
 		(uuid "c26d9dfb-2ed8-4c75-aa66-bdf06c1575bb")
 	)
+	(label "SR_CLK"
+		(at 227.33 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8fc33c6-86e9-4330-afe8-9411828fac3d")
+	)
 	(label "N6.7"
-		(at 172.72 120.65 180)
+		(at 176.53 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2100,7 +2172,7 @@
 		(uuid "d2b7916c-981e-4ce9-ad91-7c96d08202c3")
 	)
 	(label "N1.9"
-		(at 148.59 77.47 0)
+		(at 144.78 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2110,7 +2182,7 @@
 		(uuid "d314c6f7-181f-4ce4-b4f5-7e84bc00ad8e")
 	)
 	(label "N5.7"
-		(at 172.72 95.25 180)
+		(at 176.53 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2120,7 +2192,7 @@
 		(uuid "d4bda251-3878-4e67-8b79-ae4ce8cc1f04")
 	)
 	(label "N2.1"
-		(at 90.17 80.01 180)
+		(at 93.98 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2130,7 +2202,7 @@
 		(uuid "d8df7e0c-5de8-4f6a-be65-9dc171d8868c")
 	)
 	(label "N4.2"
-		(at 231.14 95.25 0)
+		(at 227.33 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2140,7 +2212,7 @@
 		(uuid "dc9a9415-7807-4150-a3ce-2c61d603f2c1")
 	)
 	(label "N4.1"
-		(at 231.14 97.79 0)
+		(at 227.33 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2150,7 +2222,7 @@
 		(uuid "e00c8530-b054-4afb-a349-f2d9025ae04e")
 	)
 	(label "N6.2"
-		(at 172.72 107.95 180)
+		(at 176.53 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2160,7 +2232,7 @@
 		(uuid "e35e2a5a-3502-422b-bf58-309381f33e70")
 	)
 	(label "N6.5"
-		(at 172.72 115.57 180)
+		(at 176.53 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2170,7 +2242,7 @@
 		(uuid "e5e1a3dc-32fa-4bd3-b290-ae454b29338a")
 	)
 	(label "N6.3"
-		(at 172.72 110.49 180)
+		(at 176.53 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2180,7 +2252,7 @@
 		(uuid "e9c73718-70f2-4e5f-8ba6-ff41aaebdb37")
 	)
 	(label "SR_DATA"
-		(at 231.14 105.41 0)
+		(at 227.33 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2190,7 +2262,7 @@
 		(uuid "ea2db1c9-629f-4123-977b-b2388546deb0")
 	)
 	(label "N2.7"
-		(at 90.17 95.25 180)
+		(at 93.98 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,7 +2272,7 @@
 		(uuid "ef6cb19b-d9a3-409e-9a8a-e742acf7d0a2")
 	)
 	(label "N6.4"
-		(at 172.72 113.03 180)
+		(at 176.53 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2210,7 +2282,7 @@
 		(uuid "f2271717-d7eb-4a25-8386-6bc8dc124d4a")
 	)
 	(label "N1.3"
-		(at 148.59 92.71 0)
+		(at 144.78 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2220,7 +2292,7 @@
 		(uuid "f8cf9bd3-506c-490c-abe6-a725dc812076")
 	)
 	(label "N3.7"
-		(at 90.17 120.65 180)
+		(at 93.98 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2230,7 +2302,7 @@
 		(uuid "fd3eee93-c34a-4c1d-9168-b7d1d6d52ec4")
 	)
 	(label "N3.6"
-		(at 90.17 118.11 180)
+		(at 93.98 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2240,26 +2312,25 @@
 		(uuid "feea6bc6-cbd0-47a2-a2a5-dd568c203e41")
 	)
 	(symbol
-		(lib_id "Regulator_Switching:LT1301")
-		(at 43.18 58.42 0)
+		(lib_id "power:+5V")
+		(at 33.02 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "158faa9a-d2d5-41a5-a490-190eb660091a")
-		(property "Reference" "U9"
-			(at 45.3233 43.18 0)
+		(uuid "05c1ac42-1363-4e45-b16c-014fc9959828")
+		(property "Reference" "#PWR089"
+			(at 36.83 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "LT1301"
-			(at 45.3233 45.72 0)
+		(property "Value" "3V3"
+			(at 29.972 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 58.42 0)
+			(at 33.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,8 +2347,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/lt1301.pdf"
-			(at 43.18 58.42 0)
+		(property "Datasheet" ""
+			(at 33.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,8 +2356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Micropower High Efficiency 5V/12V Step-Up DC/DC Converter for Flash Memory, DIP-8/SOIC-8"
-			(at 43.18 58.42 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,33 +2366,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "68ea7a05-a459-46f4-b96f-a2965189f3f2")
-		)
-		(pin "7"
-			(uuid "50e96cd8-ac48-4066-8715-e81fa2ced367")
-		)
-		(pin "5"
-			(uuid "aac08294-d60c-4a0e-bdd1-5e14a6df5c05")
-		)
-		(pin "6"
-			(uuid "3c60c90c-28ff-43d6-a778-b910b4ec4489")
-		)
-		(pin "3"
-			(uuid "d046eb13-15d9-45d3-8d84-87d96905fba5")
-		)
-		(pin "8"
-			(uuid "2fea4af5-fa90-4df1-aeee-9abdf3c2ca0e")
-		)
-		(pin "4"
-			(uuid "8e65491f-552d-4fd0-a558-c14050eadad2")
-		)
-		(pin "2"
-			(uuid "890f1c68-82b4-44ff-ae86-3195575e8ded")
+			(uuid "fdaa6b6d-fa13-4c38-85bb-e23e14b7e5ca")
 		)
 		(instances
-			(project ""
+			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/7ab18cf9-d3f6-466e-9c72-04333552c3ee"
-					(reference "U9")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -2560,6 +2610,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 227.33 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e213c8c-48b4-469a-8660-ddc746db308b")
+		(property "Reference" "#PWR091"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 232.41 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cfdef2a-0fd7-4afd-afc0-c67a93362dd3")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/7ab18cf9-d3f6-466e-9c72-04333552c3ee"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 227.33 113.03 90)
 		(unit 1)
@@ -2621,6 +2736,201 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/7ab18cf9-d3f6-466e-9c72-04333552c3ee"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3789bbd8-43f1-424d-89a1-c50d76721b10")
+		(property "Reference" "#PWR088"
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae33eee9-3faa-4557-bf1b-3acc17214cd3")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/7ab18cf9-d3f6-466e-9c72-04333552c3ee"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 144.78 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60e43dc5-e490-42fe-9879-332d91bcfbca")
+		(property "Reference" "#PWR090"
+			(at 140.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 150.114 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fecc7ebb-e8f6-4f3a-92ba-6a120f032528")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/7ab18cf9-d3f6-466e-9c72-04333552c3ee"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 40.64 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afb9f50a-5144-4cd1-b948-3e73e2e0de99")
+		(property "Reference" "#PWR087"
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 40.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 40.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f98cef06-0807-468a-b24c-bb48f70275b0")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/7ab18cf9-d3f6-466e-9c72-04333552c3ee"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -3031,6 +3341,71 @@
 			(project ""
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/7ab18cf9-d3f6-466e-9c72-04333552c3ee"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 45.72 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d06bd8c4-c7d5-4d3e-a5cd-abcdde98724a")
+		(property "Reference" "#PWR086"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c53203ff-0ed3-49f9-b958-aa351ebc7f31")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/7ab18cf9-d3f6-466e-9c72-04333552c3ee"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
