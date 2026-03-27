@@ -5525,16 +5525,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 31.75) (xy 175.26 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66b34cbb-4e61-4f05-b457-9537fdffac9c")
-	)
-	(wire
-		(pts
 			(xy 39.37 31.75) (xy 39.37 29.21)
 		)
 		(stroke
@@ -5965,16 +5955,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 26.67) (xy 175.26 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7cb0102-a873-4d90-a4f8-139a9b07adf9")
-	)
-	(wire
-		(pts
 			(xy 246.38 29.21) (xy 246.38 30.48)
 		)
 		(stroke
@@ -6373,8 +6353,18 @@
 		)
 		(uuid "1677f475-1053-49f7-969a-a86c5669e185")
 	)
+	(label "SR_STR_3V3"
+		(at 167.64 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3afee127-1f4a-4447-aa71-47914cbbeae6")
+	)
 	(label "RTC_SCL"
-		(at 175.26 31.75 0)
+		(at 167.64 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6384,7 +6374,7 @@
 		(uuid "502ce373-fc21-4045-98d7-591c4e78faf1")
 	)
 	(label "RTC_SDA"
-		(at 175.26 26.67 0)
+		(at 167.64 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6392,6 +6382,16 @@
 			(justify left)
 		)
 		(uuid "56fb29fb-78f9-429b-a6e4-55df4113c2ae")
+	)
+	(label "SR_DATA_IN_3V3"
+		(at 167.64 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ece7bd7-b9a7-4987-9312-cf6f169c138a")
 	)
 	(label "GPIO23"
 		(at 167.64 143.51 0)
@@ -6432,6 +6432,26 @@
 			(justify left bottom)
 		)
 		(uuid "935fb088-3dd0-4da5-a8dd-09da07a31295")
+	)
+	(label "SR_CLK_3V3"
+		(at 167.64 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3ede4c3-1889-4dab-b73c-bbb9e21be720")
+	)
+	(label "SR_OE_3V3"
+		(at 167.64 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0864bb5-c160-4b37-b7df-c69ff7205676")
 	)
 	(label "RUN"
 		(at 106.68 57.15 180)
