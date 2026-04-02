@@ -1473,7 +1473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_500"
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
 			(at 162.56 87.376 90)
 			(effects
 				(font
@@ -1691,7 +1691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 145.796 82.55 0)
 			(effects
 				(font

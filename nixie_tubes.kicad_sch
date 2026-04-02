@@ -652,10 +652,22 @@
 		)
 	)
 	(junction
+		(at 214.63 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "111f83f2-b428-4f1d-8976-fb5b2afe0326")
+	)
+	(junction
 		(at 82.55 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "165df7ff-3d0d-4093-b6e3-df1037c86f6b")
+	)
+	(junction
+		(at 124.46 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d46172d-a44c-47c2-b10f-dbeb50fc2783")
 	)
 	(junction
 		(at 218.44 53.34)
@@ -664,10 +676,58 @@
 		(uuid "4f31c13d-c045-476d-a7cf-9d1731acdf08")
 	)
 	(junction
+		(at 36.83 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68117592-c162-4379-851b-3e4bc818a26e")
+	)
+	(junction
+		(at 170.18 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87fdbff5-5f99-4d1d-bd23-8e51efb706ae")
+	)
+	(junction
 		(at 128.27 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88d30590-acc7-4c56-91af-8be3d148d6d3")
+	)
+	(junction
+		(at 82.55 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a678f59f-b4c8-4867-b751-ac66bed9e778")
+	)
+	(junction
+		(at 218.44 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0ff7fd7-75da-4335-8f06-3e06ea3af550")
+	)
+	(junction
+		(at 78.74 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d09f028f-2731-4123-af46-cbe004b5e4bb")
+	)
+	(junction
+		(at 36.83 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2c55c1a-c13e-45e3-bf7b-fcaf722e2afa")
+	)
+	(junction
+		(at 128.27 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d354b235-9cbb-4996-96f4-4cb9a4207d19")
+	)
+	(junction
+		(at 257.81 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da3012bb-2e05-4393-9517-fe98f2f417cf")
 	)
 	(junction
 		(at 173.99 53.34)
@@ -681,6 +741,18 @@
 		(color 0 0 0 0)
 		(uuid "ef5502bb-1f35-47b9-be12-f676d70d248a")
 	)
+	(junction
+		(at 173.99 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f320d836-756f-4af4-bb58-b5ca45cab7dd")
+	)
+	(junction
+		(at 261.62 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb4a7506-b464-4763-a57c-16ea6424b104")
+	)
 	(wire
 		(pts
 			(xy 128.27 53.34) (xy 149.86 53.34)
@@ -693,7 +765,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 53.34) (xy 173.99 53.34)
+			(xy 170.18 63.5) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071201a5-7873-46e5-846c-df0d4d435bcb")
+	)
+	(wire
+		(pts
+			(xy 149.86 53.34) (xy 170.18 53.34)
 		)
 		(stroke
 			(width 0)
@@ -743,7 +825,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 53.34) (xy 128.27 53.34)
+			(xy 214.63 53.34) (xy 214.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bbfbaf0-d8dc-4be4-b88b-9cbb2f5d8600")
+	)
+	(wire
+		(pts
+			(xy 82.55 53.34) (xy 124.46 53.34)
 		)
 		(stroke
 			(width 0)
@@ -783,6 +875,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 55.88) (xy 33.02 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdf040f-b364-4fc4-ab2e-4238acc708f3")
+	)
+	(wire
+		(pts
 			(xy 82.55 63.5) (xy 82.55 69.85)
 		)
 		(stroke
@@ -813,7 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 53.34) (xy 218.44 53.34)
+			(xy 261.62 53.34) (xy 257.81 53.34)
 		)
 		(stroke
 			(width 0)
@@ -893,6 +995,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 63.5) (xy 82.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448a6aaf-6490-47c9-a0c3-1fcccb85c6a3")
+	)
+	(wire
+		(pts
+			(xy 170.18 53.34) (xy 173.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45993d78-b36e-45bd-8341-cb4f948112f4")
+	)
+	(wire
+		(pts
 			(xy 266.7 90.17) (xy 266.7 87.63)
 		)
 		(stroke
@@ -903,7 +1025,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 53.34) (xy 218.44 53.34)
+			(xy 33.02 63.5) (xy 36.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472a3426-a952-46df-8d5f-bb63b0b091c8")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 214.63 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1003,6 +1135,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 63.5) (xy 261.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704f7e1e-3f33-42c7-8eca-aab9076ceb80")
+	)
+	(wire
+		(pts
+			(xy 124.46 63.5) (xy 128.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b7aae5-ce8b-422e-a210-226cefddc4c1")
+	)
+	(wire
+		(pts
 			(xy 135.89 90.17) (xy 135.89 87.63)
 		)
 		(stroke
@@ -1073,6 +1225,26 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 53.34) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a5853b-e59a-45cf-b89d-0fd7d373dec1")
+	)
+	(wire
+		(pts
+			(xy 124.46 53.34) (xy 124.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83073c0d-0d64-4289-bcaf-bbe6e7bb9557")
+	)
+	(wire
+		(pts
 			(xy 264.16 90.17) (xy 264.16 87.63)
 		)
 		(stroke
@@ -1113,6 +1285,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 53.34) (xy 82.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe02436-cd91-4d23-a3db-d1f6e4233c75")
+	)
+	(wire
+		(pts
 			(xy 92.71 90.17) (xy 92.71 87.63)
 		)
 		(stroke
@@ -1130,6 +1312,36 @@
 			(type default)
 		)
 		(uuid "92f859cd-6402-404c-ad31-5f913351f13d")
+	)
+	(wire
+		(pts
+			(xy 257.81 53.34) (xy 257.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94380f43-b5fe-42cf-a6e2-324cdd570aa1")
+	)
+	(wire
+		(pts
+			(xy 33.02 53.34) (xy 36.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94531ede-abbe-43a8-a48d-0541d8a2cf58")
+	)
+	(wire
+		(pts
+			(xy 214.63 53.34) (xy 218.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95036e71-7338-4f7a-873f-baaaa3d7970b")
 	)
 	(wire
 		(pts
@@ -1180,6 +1392,16 @@
 			(type default)
 		)
 		(uuid "a0d34478-9687-4902-8069-3b9cb05dc923")
+	)
+	(wire
+		(pts
+			(xy 170.18 53.34) (xy 170.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d7fa0c-a4fd-4527-ae2e-59b91e9f4b6a")
 	)
 	(wire
 		(pts
@@ -1393,7 +1615,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 53.34) (xy 82.55 53.34)
+			(xy 36.83 53.34) (xy 78.74 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1460,6 +1682,36 @@
 			(type default)
 		)
 		(uuid "f33e4446-5193-495a-8382-d89479998c9b")
+	)
+	(wire
+		(pts
+			(xy 78.74 53.34) (xy 78.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fc3392-8375-4e82-8d40-2fc8198e9bf3")
+	)
+	(wire
+		(pts
+			(xy 257.81 53.34) (xy 218.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b5e11a-f57f-4ff3-b4a2-44d93a06cc31")
+	)
+	(wire
+		(pts
+			(xy 214.63 63.5) (xy 218.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5ab766-78ff-4f02-a14e-66dd425861c9")
 	)
 	(wire
 		(pts
@@ -2256,7 +2508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "24k"
 			(at 39.37 60.9599 0)
 			(effects
 				(font
@@ -2265,7 +2517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 37.846 59.944 90)
 			(effects
 				(font
@@ -2326,7 +2578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "24k"
 			(at 176.53 60.9599 0)
 			(effects
 				(font
@@ -2335,7 +2587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 175.006 59.944 90)
 			(effects
 				(font
@@ -2396,7 +2648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "24k"
 			(at 220.98 60.9599 0)
 			(effects
 				(font
@@ -2405,7 +2657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 219.456 59.944 90)
 			(effects
 				(font
@@ -2466,7 +2718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "24k"
 			(at 85.09 60.9599 0)
 			(effects
 				(font
@@ -2475,7 +2727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 83.566 59.944 90)
 			(effects
 				(font
@@ -2744,7 +2996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "24k"
 			(at 264.16 60.9599 0)
 			(effects
 				(font
@@ -2753,7 +3005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 262.636 59.944 90)
 			(effects
 				(font
@@ -2917,7 +3169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "24k"
 			(at 130.81 60.9599 0)
 			(effects
 				(font
@@ -2926,7 +3178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 129.286 59.944 90)
 			(effects
 				(font
@@ -2963,6 +3215,324 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 257.81 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7824596a-9f46-4042-99e2-ef7dd127ac1e")
+		(property "Reference" "R42"
+			(at 255.27 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 255.27 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 256.794 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay Beyschlag/Draloric/BC Components"
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PR01000102402JR500"
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "56-PR01000102402JR500CT-ND"
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPN" "C1741307"
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "277fdf1b-7c28-458f-96e0-d9f3ee1db097")
+		)
+		(pin "1"
+			(uuid "dd47a541-190f-453c-99a4-345895196b1b")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 78.74 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dd61abb-a897-4d24-b04e-780eb88722e7")
+		(property "Reference" "R38"
+			(at 76.2 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 76.2 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 77.724 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay Beyschlag/Draloric/BC Components"
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PR01000102402JR500"
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "56-PR01000102402JR500CT-ND"
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPN" "C1741307"
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbf31ece-8c98-4860-911b-112b4cb9eefa")
+		)
+		(pin "1"
+			(uuid "d7afb9e2-d647-4473-9a3e-fa4d47ac510a")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 170.18 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0fde459-6757-4160-b268-6e06c2ef321b")
+		(property "Reference" "R40"
+			(at 167.64 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 167.64 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 169.164 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay Beyschlag/Draloric/BC Components"
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PR01000102402JR500"
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "56-PR01000102402JR500CT-ND"
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPN" "C1741307"
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c93cf9a-5638-4699-8d32-2a839e62543f")
+		)
+		(pin "1"
+			(uuid "a0652b7c-ac07-46cd-b181-72c5073bcf9e")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3065,6 +3635,324 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
 					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 124.46 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea63477a-86e4-40e8-9327-fe0c5c4f7433")
+		(property "Reference" "R39"
+			(at 121.92 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 121.92 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 123.444 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay Beyschlag/Draloric/BC Components"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PR01000102402JR500"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "56-PR01000102402JR500CT-ND"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPN" "C1741307"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec41b202-8494-4314-b6df-8d697ecb46ec")
+		)
+		(pin "1"
+			(uuid "7f8f89c5-0cc1-4ee8-aa4c-28325e47e839")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 214.63 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8149cd1-6e77-4f1a-b5ce-e946ab76cd36")
+		(property "Reference" "R41"
+			(at 212.09 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 212.09 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 213.614 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay Beyschlag/Draloric/BC Components"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PR01000102402JR500"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "56-PR01000102402JR500CT-ND"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPN" "C1741307"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "770cd295-a1c0-4ef2-9437-117fc5753027")
+		)
+		(pin "1"
+			(uuid "a06de725-93d7-455e-8548-cb17c995087b")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 33.02 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f92c0788-048c-4322-a86c-7c2ca07f88fc")
+		(property "Reference" "R37"
+			(at 30.48 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 30.48 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 32.004 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay Beyschlag/Draloric/BC Components"
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PR01000102402JR500"
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "56-PR01000102402JR500CT-ND"
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPN" "C1741307"
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "215dc204-0f23-40e2-add8-7da9fb0357f4")
+		)
+		(pin "1"
+			(uuid "9bfdcd69-ca55-4992-be41-7081b314ac56")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/4d2c51db-e8ad-4b5f-9614-8c77fc13637c"
+					(reference "R37")
 					(unit 1)
 				)
 			)

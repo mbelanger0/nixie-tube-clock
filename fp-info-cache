@@ -1,4 +1,4 @@
-27420219332117419
+27427318208182802
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108227,6 +108227,13 @@ ESP32-WROOM-32E-N4
 47
 47
 carter_kicad_footprints
+FUSE_3549-2
+
+
+0
+4
+4
+carter_kicad_footprints
 GCT_USB4155-03-C_REVA
 
 
@@ -108261,6 +108268,13 @@ RaspberryPiPico_SC0915_1
 0
 53
 53
+carter_kicad_footprints
+SC70-6_ONS
+
+NC7WZ14P6X 
+0
+6
+6
 carter_kicad_footprints
 SODFL3616X98N
 SOD-123FL CASE498
@@ -108381,6 +108395,13 @@ USB4105-GF-A_1
 16
 16
 carter_kicad_footprints
+WCAP-ASLI_6.3X7.7_DXL_
+
+
+0
+2
+2
+carter_kicad_footprints
 cjh_cone_18mm
 
 
@@ -108408,6 +108429,13 @@ HV5122PG-G
 0
 44
 44
+eclectronics_nixie_footprints
+SOIC127P600X175-8N
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
 eclectronics_nixie_footprints
 SOT95P280X145-5N
 SOT-23 DBV 5-1
