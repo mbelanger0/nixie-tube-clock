@@ -3916,6 +3916,33 @@
 				)
 			)
 		)
+		(property "MFN" "Vishay Dale"
+			(at 189.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0805634KFKEA"
+			(at 189.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "541-634KCCT-ND"
+			(at 189.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be1f2933-eb41-4088-8022-58a240df0518")
 		)
@@ -3979,6 +4006,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "YAGEO"
+			(at 189.23 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-077K68L"
+			(at 189.23 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-7.68KFRCT-ND"
+			(at 189.23 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4232,6 +4286,33 @@
 				)
 			)
 		)
+		(property "MFN" "KEMET"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K4RACTU"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "399-C0603C104K4RACTUCT-ND"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "941df7ce-36b1-4244-a743-4f42181f59d6")
 		)
@@ -4301,6 +4382,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "MCC (Micro Commercial Components)"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMBTA42-TP"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "MMBTA42TPMSCT-ND"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4436,11 +4544,29 @@
 				)
 			)
 		)
+		(property "MFN" "Murata Electronics"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "MPN" "GRM55DR72E105KW01L"
 			(at 198.12 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "490-3550-1-ND"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4908,11 +5034,29 @@
 				)
 			)
 		)
+		(property "MFN" "TDK"
+			(at 238.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "MPN" "CGA4J3X7T2E104M125AE"
 			(at 238.76 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "445-7965-1-ND"
+			(at 238.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4980,6 +5124,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "Vishay Dale"
+			(at 62.23 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0805100KFKEA"
+			(at 62.23 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "541-100KCCT-ND"
+			(at 62.23 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5109,6 +5280,33 @@
 				)
 			)
 		)
+		(property "MFN" "Vishay Dale"
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0805100KFKEA"
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "541-100KCCT-ND"
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2133cef4-80ac-4c1c-9ec1-7892e9a8331d")
 		)
@@ -5172,6 +5370,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "Vishay Dale"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080560K4FKEA"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "541-60.4KCCT-ND"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5242,11 +5467,29 @@
 				)
 			)
 		)
+		(property "MFN" "Taiyo Yuden"
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "MPN" "EMK325ABJ107MM-P"
 			(at 95.25 80.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "587-5426-1-ND"
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5316,6 +5559,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "KEMET"
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0805C102J5GACTU"
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "399-C0805C102J5GACTUCT-ND"
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5483,6 +5753,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "Vishay Dale"
+			(at 85.09 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW08052K00FKEA"
+			(at 85.09 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "541-2.00KCCT-ND"
+			(at 85.09 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5681,11 +5978,29 @@
 				)
 			)
 		)
-		(property "MPN" "CL21C431JBANNNC"
+		(property "MFN" "YAGEO"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805JRNPO9BN431"
 			(at 105.41 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-4238-1-ND"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5755,6 +6070,33 @@
 				)
 			)
 		)
+		(property "MFN" "Panasonic Electronic Components"
+			(at 156.21 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-P06J102V"
+			(at 156.21 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "P1.0KADCT-ND"
+			(at 156.21 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e279d008-7746-4e3b-a90c-c900429e8098")
 		)
@@ -5795,7 +6137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.34 129.032 90)
 			(effects
 				(font
@@ -5818,6 +6160,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "YAGEO"
+			(at 53.34 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 53.34 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-1.00KHRCT-ND"
+			(at 53.34 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6198,11 +6567,29 @@
 				)
 			)
 		)
+		(property "MFN" "Taiyo Yuden"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "MPN" "EMK325ABJ107MM-P"
 			(at 134.62 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "587-5426-1-ND"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -6270,6 +6657,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "Vishay Dale"
+			(at 137.16 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW08054K12FKEA"
+			(at 137.16 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "541-4.12KCCT-ND"
+			(at 137.16 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6601,11 +7015,29 @@
 				)
 			)
 		)
-		(property "MPN" "C3216JB1C476M160AB"
+		(property "MFN" "TDK"
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3216X5R1C476M160AB"
 			(at 85.09 114.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "445-6003-1-ND"
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -6805,11 +7237,29 @@
 				)
 			)
 		)
+		(property "MFN" "Murata Electronics"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "MPN" "GRM55DR72E105KW01L"
 			(at 205.74 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "490-3550-1-ND"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -6882,11 +7332,29 @@
 				)
 			)
 		)
+		(property "MFN" "KEMET"
+			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "MPN" "C0603C561JAGAC7867"
 			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "399-C0603C561JAGACTUCT-ND"
+			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -6959,11 +7427,29 @@
 				)
 			)
 		)
+		(property "MFN" "TDK"
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "MPN" "CGA4J3X7T2E104M125AE"
 			(at 213.36 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "445-7965-1-ND"
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -7036,11 +7522,29 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805C101JAGAC7800"
+		(property "MFN" "Murata Electronics"
 			(at 180.34 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21A5C2E101JW01D"
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "490-5542-1-ND"
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -7087,7 +7591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.3452 88.9 0)
 			(effects
 				(font
@@ -7111,6 +7615,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "KEMET"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K4RACTU"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "399-C0603C104K4RACTUCT-ND"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7153,7 +7684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.05 104.902 90)
 			(effects
 				(font
@@ -7176,6 +7707,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "YAGEO"
+			(at 146.05 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-070RL"
+			(at 146.05 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-0.0GRCT-ND"
+			(at 146.05 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7220,7 +7778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR-SM4-TF_1x02-1MP_P1.50mm_Vertical"
 			(at 43.18 135.89 0)
 			(effects
 				(font
@@ -7315,11 +7873,29 @@
 				)
 			)
 		)
+		(property "MFN" "TDK"
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "MPN" "CGA4J3X7T2E104M125AE"
 			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "445-7965-1-ND"
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -7392,11 +7968,29 @@
 				)
 			)
 		)
+		(property "MFN" "Taiyo Yuden"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "MPN" "EMK325ABJ107MM-P"
 			(at 143.51 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "587-5426-1-ND"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -7683,6 +8277,33 @@
 				)
 			)
 		)
+		(property "MFN" "YAGEO"
+			(at 111.76 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-070RL"
+			(at 111.76 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-0.0GRCT-ND"
+			(at 111.76 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1af87822-b7ab-41f2-9a1e-c2dde21cc20e")
 		)
@@ -7811,11 +8432,29 @@
 				)
 			)
 		)
+		(property "MFN" "Panasonic Electronic Components"
+			(at 166.37 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "MPN" "ERJ-6DSFR10V"
 			(at 166.37 114.3 90)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "P19308CT-ND"
+			(at 166.37 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -7885,6 +8524,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "Würth Elektronik"
+			(at 101.6 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "885012207029"
+			(at 101.6 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "732-8029-1-ND"
+			(at 101.6 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

@@ -3522,7 +3522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-14"
+		(property "Footprint" "eclectronics_nixie_footprints:nixies-us-IN-14"
 			(at 121.92 79.248 0)
 			(effects
 				(font
@@ -4240,7 +4240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-14"
+		(property "Footprint" "eclectronics_nixie_footprints:nixies-us-IN-14"
 			(at 255.27 79.248 0)
 			(effects
 				(font
@@ -4413,7 +4413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-14"
+		(property "Footprint" "eclectronics_nixie_footprints:nixies-us-IN-14"
 			(at 212.09 79.248 0)
 			(effects
 				(font
@@ -4587,7 +4587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-14"
+		(property "Footprint" "eclectronics_nixie_footprints:nixies-us-IN-14"
 			(at 167.64 79.248 0)
 			(effects
 				(font
@@ -6182,7 +6182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-14"
+		(property "Footprint" "eclectronics_nixie_footprints:nixies-us-IN-14"
 			(at 76.2 79.248 0)
 			(effects
 				(font
@@ -6879,7 +6879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-14"
+		(property "Footprint" "eclectronics_nixie_footprints:nixies-us-IN-14"
 			(at 30.48 79.248 0)
 			(effects
 				(font
