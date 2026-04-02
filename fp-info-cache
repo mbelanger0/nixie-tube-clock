@@ -1,4 +1,4 @@
-27427318208182802
+27429093357977982
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108191,6 +108191,13 @@ Inductor
 0
 2
 2
+carter_kicad_footprints
+COM-16347_SPK
+
+COM-16347 
+0
+4
+4
 carter_kicad_footprints
 DIO_MM3Z3V0T1G
 

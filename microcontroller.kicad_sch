@@ -6363,6 +6363,16 @@
 		)
 		(uuid "3afee127-1f4a-4447-aa71-47914cbbeae6")
 	)
+	(label "LED_LOGIC_3V3"
+		(at 167.64 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a0fbeaf-e924-4591-a1ab-b531ab94c4b0")
+	)
 	(label "RTC_SCL"
 		(at 167.64 31.75 0)
 		(effects
