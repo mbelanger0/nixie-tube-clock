@@ -132,7 +132,7 @@
 	(net 52 "/nixie_tubes/N1.0")
 	(net 53 "/nixie_tubes/N1.8")
 	(net 54 "/nixie_tubes/N1.5")
-	(net 55 "/nixie_tubes/N1.1")
+	(net 55 "N1.1")
 	(net 56 "/nixie_tubes/N1.6")
 	(net 57 "/nixie_tubes/N1.9")
 	(net 58 "Net-(N2-PadA)")
@@ -295,64 +295,63 @@
 	(net 215 "/nixie_tubes_driver/N2.3")
 	(net 216 "unconnected-(U6-HVOUT32-Pad22)")
 	(net 217 "/nixie_tubes_driver/N1.4")
-	(net 218 "/nixie_tubes_driver/N1.1")
-	(net 219 "/nixie_tubes_driver/N3.6")
-	(net 220 "/nixie_tubes_driver/N3.9")
-	(net 221 "/nixie_tubes_driver/N1.6")
-	(net 222 "/nixie_tubes_driver/N3.7")
-	(net 223 "/nixie_tubes_driver/N1.5")
-	(net 224 "/nixie_tubes_driver/N2.7")
-	(net 225 "unconnected-(U6-N{slash}C-Pad27)")
-	(net 226 "/nixie_tubes_driver/N5.4")
-	(net 227 "/nixie_tubes_driver/N4.1")
-	(net 228 "/nixie_tubes_driver/N6.0")
-	(net 229 "/nixie_tubes_driver/N5.8")
-	(net 230 "unconnected-(U7-N{slash}C-Pad34)")
-	(net 231 "/nixie_tubes_driver/N5.5")
-	(net 232 "/nixie_tubes_driver/N4.3")
-	(net 233 "/nixie_tubes_driver/N4.6")
-	(net 234 "/nixie_tubes_driver/N5.0")
-	(net 235 "/nixie_tubes_driver/N6.2")
-	(net 236 "unconnected-(U7-N{slash}C-Pad24)")
-	(net 237 "/nixie_tubes_driver/N6.9")
-	(net 238 "/nixie_tubes_driver/N6.7")
-	(net 239 "/nixie_tubes_driver/N5.2")
-	(net 240 "unconnected-(U7-N{slash}C-Pad26)")
-	(net 241 "/nixie_tubes_driver/N6.8")
-	(net 242 "/nixie_tubes_driver/N6.3")
-	(net 243 "/nixie_tubes_driver/N5.7")
-	(net 244 "/nixie_tubes_driver/N4.0")
-	(net 245 "unconnected-(U7-N{slash}C-Pad25)")
-	(net 246 "unconnected-(U7-HVOUT31-Pad21)")
-	(net 247 "/nixie_tubes_driver/N4.9")
-	(net 248 "/nixie_tubes_driver/N4.7")
-	(net 249 "/nixie_tubes_driver/N4.5")
-	(net 250 "/nixie_tubes_driver/N6.1")
-	(net 251 "/nixie_tubes_driver/N4.2")
-	(net 252 "/nixie_tubes_driver/N5.3")
-	(net 253 "/nixie_tubes_driver/N5.1")
-	(net 254 "unconnected-(U7-DATAOUT-Pad23)")
-	(net 255 "/nixie_tubes_driver/N6.5")
-	(net 256 "unconnected-(U7-N{slash}C-Pad27)")
-	(net 257 "/nixie_tubes_driver/N4.4")
-	(net 258 "unconnected-(U7-HVOUT32-Pad22)")
-	(net 259 "/nixie_tubes_driver/N5.9")
-	(net 260 "/nixie_tubes_driver/N5.6")
-	(net 261 "/nixie_tubes_driver/N6.6")
-	(net 262 "/nixie_tubes_driver/N4.8")
-	(net 263 "/nixie_tubes_driver/N6.4")
-	(net 264 "unconnected-(U8-~{INT}{slash}SQW-Pad3)")
-	(net 265 "unconnected-(U8-32KHZ-Pad1)")
-	(net 266 "unconnected-(U8-~{RST}-Pad4)")
-	(net 267 "unconnected-(X1-ENA-Pad1)")
+	(net 218 "/nixie_tubes_driver/N3.6")
+	(net 219 "/nixie_tubes_driver/N3.9")
+	(net 220 "/nixie_tubes_driver/N1.6")
+	(net 221 "/nixie_tubes_driver/N3.7")
+	(net 222 "/nixie_tubes_driver/N1.5")
+	(net 223 "/nixie_tubes_driver/N2.7")
+	(net 224 "unconnected-(U6-N{slash}C-Pad27)")
+	(net 225 "/nixie_tubes_driver/N5.4")
+	(net 226 "/nixie_tubes_driver/N4.1")
+	(net 227 "/nixie_tubes_driver/N6.0")
+	(net 228 "/nixie_tubes_driver/N5.8")
+	(net 229 "unconnected-(U7-N{slash}C-Pad34)")
+	(net 230 "/nixie_tubes_driver/N5.5")
+	(net 231 "/nixie_tubes_driver/N4.3")
+	(net 232 "/nixie_tubes_driver/N4.6")
+	(net 233 "/nixie_tubes_driver/N5.0")
+	(net 234 "/nixie_tubes_driver/N6.2")
+	(net 235 "unconnected-(U7-N{slash}C-Pad24)")
+	(net 236 "/nixie_tubes_driver/N6.9")
+	(net 237 "/nixie_tubes_driver/N6.7")
+	(net 238 "/nixie_tubes_driver/N5.2")
+	(net 239 "unconnected-(U7-N{slash}C-Pad26)")
+	(net 240 "/nixie_tubes_driver/N6.8")
+	(net 241 "/nixie_tubes_driver/N6.3")
+	(net 242 "/nixie_tubes_driver/N5.7")
+	(net 243 "/nixie_tubes_driver/N4.0")
+	(net 244 "unconnected-(U7-N{slash}C-Pad25)")
+	(net 245 "unconnected-(U7-HVOUT31-Pad21)")
+	(net 246 "/nixie_tubes_driver/N4.9")
+	(net 247 "/nixie_tubes_driver/N4.7")
+	(net 248 "/nixie_tubes_driver/N4.5")
+	(net 249 "/nixie_tubes_driver/N6.1")
+	(net 250 "/nixie_tubes_driver/N4.2")
+	(net 251 "/nixie_tubes_driver/N5.3")
+	(net 252 "/nixie_tubes_driver/N5.1")
+	(net 253 "unconnected-(U7-DATAOUT-Pad23)")
+	(net 254 "/nixie_tubes_driver/N6.5")
+	(net 255 "unconnected-(U7-N{slash}C-Pad27)")
+	(net 256 "/nixie_tubes_driver/N4.4")
+	(net 257 "unconnected-(U7-HVOUT32-Pad22)")
+	(net 258 "/nixie_tubes_driver/N5.9")
+	(net 259 "/nixie_tubes_driver/N5.6")
+	(net 260 "/nixie_tubes_driver/N6.6")
+	(net 261 "/nixie_tubes_driver/N4.8")
+	(net 262 "/nixie_tubes_driver/N6.4")
+	(net 263 "unconnected-(U8-~{INT}{slash}SQW-Pad3)")
+	(net 264 "unconnected-(U8-32KHZ-Pad1)")
+	(net 265 "unconnected-(U8-~{RST}-Pad4)")
+	(net 266 "unconnected-(X1-ENA-Pad1)")
 	(footprint "eclectronics_nixie_footprints:nixies-us-IN-14"
 		(layer "F.Cu")
 		(uuid "00494b2c-733b-4591-bc60-1a8a95303614")
-		(at 52.32566 26.66822)
+		(at 153.96464 99.06)
 		(property "Reference" "N3"
 			(at 10.63498 -0.635 90)
 			(layer "F.SilkS")
-			(uuid "88502c32-17d1-4b4e-9fcb-85a5c5af8fc2")
+			(uuid "110082bf-9447-4057-97fe-ac38e63fecf4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -363,7 +362,7 @@
 		(property "Value" "IN-14"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "bbbf684e-5eb0-439a-9898-0d0985f92de8")
+			(uuid "b87e11c4-a814-4ebf-8baa-d8bfd3548e12")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375,7 +374,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8acdcfe-14b2-4a81-897b-eb804a97f81c")
+			(uuid "b9be2d20-3191-4e6d-96cb-f60e53a5b36a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +386,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9e7bc65-8398-488c-8407-3b1e4f8c9150")
+			(uuid "af17e785-edf0-4c77-890d-aa801818fcc6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1583,7 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "0a288f1f-967b-424d-9838-e77e04a12433")
-		(at 19.768 20.479)
+		(at 130.59918 99.06)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D7"
@@ -2031,7 +2030,7 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "0c82b7c6-af23-4c0d-8630-2fcd3045def6")
-		(at 19.768 27.099)
+		(at 153.96464 99.06)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D8"
@@ -2712,7 +2711,7 @@
 	(footprint "eclectronics_nixie_footprints:nixies-us-IN-14"
 		(layer "F.Cu")
 		(uuid "1290513d-8e2f-4989-b783-ca47ecb9c87e")
-		(at 52.32566 45.66666)
+		(at 230.08082 98.66122)
 		(property "Reference" "N4"
 			(at 10.63498 -0.635 90)
 			(layer "F.SilkS")
@@ -2934,11 +2933,11 @@
 	(footprint "eclectronics_nixie_footprints:nixies-us-IN-14"
 		(layer "F.Cu")
 		(uuid "1888a922-08c0-4209-964b-be014f0da859")
-		(at 33.32722 26.66822)
+		(at 130.59918 99.06)
 		(property "Reference" "N1"
 			(at 10.63498 -0.635 90)
 			(layer "F.SilkS")
-			(uuid "2483174f-fa32-4230-bbb0-eeff69fff0bd")
+			(uuid "d32be778-5773-4402-9c8e-8bff9ff79cee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2948,7 @@
 		(property "Value" "IN-14"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "7d9435ad-041b-4862-848a-34777ff6609f")
+			(uuid "f8c62dd6-7c13-4d09-aad2-54fb822bdf08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,7 +2960,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff45d7e5-6e77-4dc9-85c5-9135b3c3f028")
+			(uuid "1a36cdf8-b2d0-45d7-948d-201960a9ae09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +2972,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c635d5c-97dc-4c1a-b974-33f7e9c9fedf")
+			(uuid "c0ea2660-75a1-4646-950d-3a07b1007155")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3024,7 @@
 			(drill 0.8382)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 55 "/nixie_tubes/N1.1")
+			(net 55 "N1.1")
 			(pinfunction "1")
 			(pintype "bidirectional")
 			(uuid "b9a64524-8951-48db-b98f-7433620c7492")
@@ -3156,7 +3155,7 @@
 	(footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "19c96a08-df7b-48c3-9cf5-5e0bbd805e6f")
-		(at 89.273 45.249)
+		(at 93.98 48.26)
 		(descr "SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U8"
@@ -3430,7 +3429,7 @@
 			(size 2.05 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 265 "unconnected-(U8-32KHZ-Pad1)")
+			(net 264 "unconnected-(U8-32KHZ-Pad1)")
 			(pinfunction "32KHZ")
 			(pintype "open_collector+no_connect")
 			(uuid "9268c7f4-b8e8-4931-aab4-a7077ea64d32")
@@ -3450,7 +3449,7 @@
 			(size 2.05 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 264 "unconnected-(U8-~{INT}{slash}SQW-Pad3)")
+			(net 263 "unconnected-(U8-~{INT}{slash}SQW-Pad3)")
 			(pinfunction "~{INT}/SQW")
 			(pintype "open_collector+no_connect")
 			(uuid "5f60b2d3-46ff-43bc-95f4-2200d11caff6")
@@ -3460,7 +3459,7 @@
 			(size 2.05 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 266 "unconnected-(U8-~{RST}-Pad4)")
+			(net 265 "unconnected-(U8-~{RST}-Pad4)")
 			(pinfunction "~{RST}")
 			(pintype "bidirectional")
 			(uuid "b9ad928b-4adb-4522-9fa5-deddec7ba11d")
@@ -3968,7 +3967,7 @@
 	(footprint "eclectronics_nixie_footprints:QFP44_10x10MC_MCH"
 		(layer "F.Cu")
 		(uuid "1f643f3d-1141-4307-a9ac-dd7d11de117b")
-		(at 86.961598 93.982598)
+		(at 112.560001 106.082201)
 		(tags "HV5122PG-G ")
 		(property "Reference" "U6"
 			(at 0 -7.62 0)
@@ -6378,7 +6377,7 @@
 			(at -5.677799 1.599999 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 224 "/nixie_tubes_driver/N2.7")
+			(net 223 "/nixie_tubes_driver/N2.7")
 			(pinfunction "HVOUT18")
 			(pintype "output")
 			(uuid "e5919111-6758-42be-86d5-e056a36967a1")
@@ -6459,7 +6458,7 @@
 			(at 0 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 219 "/nixie_tubes_driver/N3.6")
+			(net 218 "/nixie_tubes_driver/N3.6")
 			(pinfunction "HVOUT27")
 			(pintype "output")
 			(uuid "caec34f0-9c4f-419d-9960-f6ef108239d5")
@@ -6468,7 +6467,7 @@
 			(at 0.800001 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 222 "/nixie_tubes_driver/N3.7")
+			(net 221 "/nixie_tubes_driver/N3.7")
 			(pinfunction "HVOUT28")
 			(pintype "output")
 			(uuid "dd553692-7a58-454b-b94c-52cfd827f658")
@@ -6486,7 +6485,7 @@
 			(at 2.4 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 220 "/nixie_tubes_driver/N3.9")
+			(net 219 "/nixie_tubes_driver/N3.9")
 			(pinfunction "HVOUT30")
 			(pintype "output")
 			(uuid "d04892d0-b5ef-4e0b-8e8b-de3f743bf06f")
@@ -6549,7 +6548,7 @@
 			(at 5.677799 0.800001 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 225 "unconnected-(U6-N{slash}C-Pad27)")
+			(net 224 "unconnected-(U6-N{slash}C-Pad27)")
 			(pinfunction "N/C")
 			(pintype "no_connect")
 			(uuid "ed17c88a-00d5-4d3e-872a-4f39895e7673")
@@ -6630,7 +6629,7 @@
 			(at 2.4 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 218 "/nixie_tubes_driver/N1.1")
+			(net 55 "N1.1")
 			(pinfunction "HVOUT2")
 			(pintype "output")
 			(uuid "c725506c-9fcd-40ee-a670-7ac23ff024e9")
@@ -6666,7 +6665,7 @@
 			(at -0.800001 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 223 "/nixie_tubes_driver/N1.5")
+			(net 222 "/nixie_tubes_driver/N1.5")
 			(pinfunction "HVOUT6")
 			(pintype "output")
 			(uuid "e430dd91-d08f-4115-a4a1-cf9d4908ec98")
@@ -6675,7 +6674,7 @@
 			(at -1.599999 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 221 "/nixie_tubes_driver/N1.6")
+			(net 220 "/nixie_tubes_driver/N1.6")
 			(pinfunction "HVOUT7")
 			(pintype "output")
 			(uuid "dacdab1e-c605-49c4-a9b1-4c9fa736632a")
@@ -8828,7 +8827,7 @@
 	(footprint "eclectronics_nixie_footprints:nixies-us-IN-14"
 		(layer "F.Cu")
 		(uuid "468185c9-10cb-4322-9286-11105682cd42")
-		(at 71.3241 26.66822)
+		(at 178.77536 99.06)
 		(property "Reference" "N5"
 			(at 10.63498 -0.635 90)
 			(layer "F.SilkS")
@@ -10203,7 +10202,7 @@
 	(footprint "eclectronics_nixie_footprints:nixies-us-IN-14"
 		(layer "F.Cu")
 		(uuid "4ec682f7-6f2e-4524-a513-cad124b1b998")
-		(at 33.32722 45.66666)
+		(at 204.68082 98.66122)
 		(property "Reference" "N2"
 			(at 10.63498 -0.635 90)
 			(layer "F.SilkS")
@@ -14517,7 +14516,7 @@
 			(at -5.677799 -4 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 234 "/nixie_tubes_driver/N5.0")
+			(net 233 "/nixie_tubes_driver/N5.0")
 			(pinfunction "HVOUT11")
 			(pintype "output")
 			(uuid "3e548056-b9f7-4036-925b-c91bbca77b64")
@@ -14526,7 +14525,7 @@
 			(at -5.677799 -3.199999 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 253 "/nixie_tubes_driver/N5.1")
+			(net 252 "/nixie_tubes_driver/N5.1")
 			(pinfunction "HVOUT12")
 			(pintype "output")
 			(uuid "ab8333e8-3d85-424d-a81f-a242760f59bc")
@@ -14535,7 +14534,7 @@
 			(at -5.677799 -2.4 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 239 "/nixie_tubes_driver/N5.2")
+			(net 238 "/nixie_tubes_driver/N5.2")
 			(pinfunction "HVOUT13")
 			(pintype "output")
 			(uuid "6f0b1ab0-4359-4211-8d00-fb2b54f58f50")
@@ -14544,7 +14543,7 @@
 			(at -5.677799 -1.599999 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 252 "/nixie_tubes_driver/N5.3")
+			(net 251 "/nixie_tubes_driver/N5.3")
 			(pinfunction "HVOUT14")
 			(pintype "output")
 			(uuid "aa98a044-2e02-4013-a45e-a889dec0366b")
@@ -14553,7 +14552,7 @@
 			(at -5.677799 -0.800001 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 226 "/nixie_tubes_driver/N5.4")
+			(net 225 "/nixie_tubes_driver/N5.4")
 			(pinfunction "HVOUT15")
 			(pintype "output")
 			(uuid "0e1a4af9-5d72-4856-a4aa-fc12b560c0d5")
@@ -14562,7 +14561,7 @@
 			(at -5.677799 0 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 231 "/nixie_tubes_driver/N5.5")
+			(net 230 "/nixie_tubes_driver/N5.5")
 			(pinfunction "HVOUT16")
 			(pintype "output")
 			(uuid "2fbf541c-1914-4c33-91e9-34b5f5109995")
@@ -14571,7 +14570,7 @@
 			(at -5.677799 0.800001 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 260 "/nixie_tubes_driver/N5.6")
+			(net 259 "/nixie_tubes_driver/N5.6")
 			(pinfunction "HVOUT17")
 			(pintype "output")
 			(uuid "e254d6b5-7569-43d9-b6d6-9de3f4bdbbb2")
@@ -14580,7 +14579,7 @@
 			(at -5.677799 1.599999 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 243 "/nixie_tubes_driver/N5.7")
+			(net 242 "/nixie_tubes_driver/N5.7")
 			(pinfunction "HVOUT18")
 			(pintype "output")
 			(uuid "77a13569-b9c7-44bf-ac0a-2b80b26f4f43")
@@ -14589,7 +14588,7 @@
 			(at -5.677799 2.4 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 229 "/nixie_tubes_driver/N5.8")
+			(net 228 "/nixie_tubes_driver/N5.8")
 			(pinfunction "HVOUT19")
 			(pintype "output")
 			(uuid "226e0c6c-149e-4adf-96b1-3d8efa0dff8b")
@@ -14598,7 +14597,7 @@
 			(at -5.677799 3.199999 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 259 "/nixie_tubes_driver/N5.9")
+			(net 258 "/nixie_tubes_driver/N5.9")
 			(pinfunction "HVOUT20")
 			(pintype "output")
 			(uuid "dd9bad5c-3fc8-4ba2-9663-cb2c7aff0dea")
@@ -14607,7 +14606,7 @@
 			(at -5.677799 4 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 228 "/nixie_tubes_driver/N6.0")
+			(net 227 "/nixie_tubes_driver/N6.0")
 			(pinfunction "HVOUT21")
 			(pintype "output")
 			(uuid "1992725f-5ce7-4338-b849-99e1339e11e6")
@@ -14616,7 +14615,7 @@
 			(at -4 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 250 "/nixie_tubes_driver/N6.1")
+			(net 249 "/nixie_tubes_driver/N6.1")
 			(pinfunction "HVOUT22")
 			(pintype "output")
 			(uuid "a3ccf0ab-ac4a-4858-bd3f-a27efb119c77")
@@ -14625,7 +14624,7 @@
 			(at -3.199999 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 235 "/nixie_tubes_driver/N6.2")
+			(net 234 "/nixie_tubes_driver/N6.2")
 			(pinfunction "HVOUT23")
 			(pintype "output")
 			(uuid "401ece94-e58d-400b-8534-8bb87432ce30")
@@ -14634,7 +14633,7 @@
 			(at -2.4 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 242 "/nixie_tubes_driver/N6.3")
+			(net 241 "/nixie_tubes_driver/N6.3")
 			(pinfunction "HVOUT24")
 			(pintype "output")
 			(uuid "76fc658d-9e84-4b35-8b00-101cc30a23f7")
@@ -14643,7 +14642,7 @@
 			(at -1.599999 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 263 "/nixie_tubes_driver/N6.4")
+			(net 262 "/nixie_tubes_driver/N6.4")
 			(pinfunction "HVOUT25")
 			(pintype "output")
 			(uuid "fc7bc49d-36a1-4895-b50b-8214c074906d")
@@ -14652,7 +14651,7 @@
 			(at -0.800001 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 255 "/nixie_tubes_driver/N6.5")
+			(net 254 "/nixie_tubes_driver/N6.5")
 			(pinfunction "HVOUT26")
 			(pintype "output")
 			(uuid "be89c866-a0c5-4b53-96f9-958d69e21fa2")
@@ -14661,7 +14660,7 @@
 			(at 0 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 261 "/nixie_tubes_driver/N6.6")
+			(net 260 "/nixie_tubes_driver/N6.6")
 			(pinfunction "HVOUT27")
 			(pintype "output")
 			(uuid "efd553a4-8af3-44d1-9098-18a281d2dbcf")
@@ -14670,7 +14669,7 @@
 			(at 0.800001 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 238 "/nixie_tubes_driver/N6.7")
+			(net 237 "/nixie_tubes_driver/N6.7")
 			(pinfunction "HVOUT28")
 			(pintype "output")
 			(uuid "62d6d128-7a08-48a1-9ca2-328e301df9f5")
@@ -14679,7 +14678,7 @@
 			(at 1.599999 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 241 "/nixie_tubes_driver/N6.8")
+			(net 240 "/nixie_tubes_driver/N6.8")
 			(pinfunction "HVOUT29")
 			(pintype "output")
 			(uuid "7610925e-34d4-43d1-8205-d7706cabe44a")
@@ -14688,7 +14687,7 @@
 			(at 2.4 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 237 "/nixie_tubes_driver/N6.9")
+			(net 236 "/nixie_tubes_driver/N6.9")
 			(pinfunction "HVOUT30")
 			(pintype "output")
 			(uuid "5f2ec02d-12c4-477a-b37c-62e96503b325")
@@ -14697,7 +14696,7 @@
 			(at 3.199999 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 246 "unconnected-(U7-HVOUT31-Pad21)")
+			(net 245 "unconnected-(U7-HVOUT31-Pad21)")
 			(pinfunction "HVOUT31")
 			(pintype "output+no_connect")
 			(uuid "8fa4c1dc-2d14-444f-9c08-0941f4f5431d")
@@ -14706,7 +14705,7 @@
 			(at 4 5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 258 "unconnected-(U7-HVOUT32-Pad22)")
+			(net 257 "unconnected-(U7-HVOUT32-Pad22)")
 			(pinfunction "HVOUT32")
 			(pintype "output+no_connect")
 			(uuid "d6653e73-db66-407e-bc30-fa20b54bc91d")
@@ -14715,7 +14714,7 @@
 			(at 5.677799 4 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 254 "unconnected-(U7-DATAOUT-Pad23)")
+			(net 253 "unconnected-(U7-DATAOUT-Pad23)")
 			(pinfunction "DATAOUT")
 			(pintype "output+no_connect")
 			(uuid "ade91b8b-2ee6-42f8-8f75-11cd34edc4fc")
@@ -14724,7 +14723,7 @@
 			(at 5.677799 3.199999 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 236 "unconnected-(U7-N{slash}C-Pad24)")
+			(net 235 "unconnected-(U7-N{slash}C-Pad24)")
 			(pinfunction "N/C")
 			(pintype "no_connect")
 			(uuid "50002b66-0f9b-462b-b8c7-5e90244f45fc")
@@ -14733,7 +14732,7 @@
 			(at 5.677799 2.4 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 245 "unconnected-(U7-N{slash}C-Pad25)")
+			(net 244 "unconnected-(U7-N{slash}C-Pad25)")
 			(pinfunction "N/C")
 			(pintype "no_connect")
 			(uuid "7bcc124d-7161-4782-a2d4-58d931150120")
@@ -14742,7 +14741,7 @@
 			(at 5.677799 1.599999 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 240 "unconnected-(U7-N{slash}C-Pad26)")
+			(net 239 "unconnected-(U7-N{slash}C-Pad26)")
 			(pinfunction "N/C")
 			(pintype "no_connect")
 			(uuid "6fb48b1c-6f20-47b7-8dc0-ffc054072fbb")
@@ -14751,7 +14750,7 @@
 			(at 5.677799 0.800001 90)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 256 "unconnected-(U7-N{slash}C-Pad27)")
+			(net 255 "unconnected-(U7-N{slash}C-Pad27)")
 			(pinfunction "N/C")
 			(pintype "no_connect")
 			(uuid "c1e36759-4db1-49bc-8889-9d319be13d3f")
@@ -14814,7 +14813,7 @@
 			(at 4 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 230 "unconnected-(U7-N{slash}C-Pad34)")
+			(net 229 "unconnected-(U7-N{slash}C-Pad34)")
 			(pinfunction "N/C")
 			(pintype "no_connect")
 			(uuid "2e19053d-8307-4963-a2a0-a142f689d514")
@@ -14823,7 +14822,7 @@
 			(at 3.199999 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 244 "/nixie_tubes_driver/N4.0")
+			(net 243 "/nixie_tubes_driver/N4.0")
 			(pinfunction "HVOUT1")
 			(pintype "output")
 			(uuid "7a645578-3d17-4e96-9f83-b28a6ce4ed50")
@@ -14832,7 +14831,7 @@
 			(at 2.4 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 227 "/nixie_tubes_driver/N4.1")
+			(net 226 "/nixie_tubes_driver/N4.1")
 			(pinfunction "HVOUT2")
 			(pintype "output")
 			(uuid "0faff8bf-d963-4537-a158-311570648f6e")
@@ -14841,7 +14840,7 @@
 			(at 1.599999 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 251 "/nixie_tubes_driver/N4.2")
+			(net 250 "/nixie_tubes_driver/N4.2")
 			(pinfunction "HVOUT3")
 			(pintype "output")
 			(uuid "a8411c36-3637-4d88-906d-e803c04e2466")
@@ -14850,7 +14849,7 @@
 			(at 0.800001 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 232 "/nixie_tubes_driver/N4.3")
+			(net 231 "/nixie_tubes_driver/N4.3")
 			(pinfunction "HVOUT4")
 			(pintype "output")
 			(uuid "3cbddee3-253d-40e4-9d22-c414e9ebde9c")
@@ -14859,7 +14858,7 @@
 			(at 0 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 257 "/nixie_tubes_driver/N4.4")
+			(net 256 "/nixie_tubes_driver/N4.4")
 			(pinfunction "HVOUT5")
 			(pintype "output")
 			(uuid "c406dddd-9847-45fe-813c-fb454b225976")
@@ -14868,7 +14867,7 @@
 			(at -0.800001 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 249 "/nixie_tubes_driver/N4.5")
+			(net 248 "/nixie_tubes_driver/N4.5")
 			(pinfunction "HVOUT6")
 			(pintype "output")
 			(uuid "a36b6eb9-28bf-4070-a1d3-eeaac0c7113f")
@@ -14877,7 +14876,7 @@
 			(at -1.599999 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 233 "/nixie_tubes_driver/N4.6")
+			(net 232 "/nixie_tubes_driver/N4.6")
 			(pinfunction "HVOUT7")
 			(pintype "output")
 			(uuid "3d965de6-4c07-49aa-9db9-f4d279722434")
@@ -14886,7 +14885,7 @@
 			(at -2.4 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 248 "/nixie_tubes_driver/N4.7")
+			(net 247 "/nixie_tubes_driver/N4.7")
 			(pinfunction "HVOUT8")
 			(pintype "output")
 			(uuid "a1e0d5a9-a548-4943-b71d-3c0d908d3d27")
@@ -14895,7 +14894,7 @@
 			(at -3.199999 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 262 "/nixie_tubes_driver/N4.8")
+			(net 261 "/nixie_tubes_driver/N4.8")
 			(pinfunction "HVOUT9")
 			(pintype "output")
 			(uuid "fbc26e0a-da79-4b89-af4b-4748c0f2e732")
@@ -14904,7 +14903,7 @@
 			(at -4 -5.677799)
 			(size 0.5008 1.3556)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 247 "/nixie_tubes_driver/N4.9")
+			(net 246 "/nixie_tubes_driver/N4.9")
 			(pinfunction "HVOUT10")
 			(pintype "output")
 			(uuid "95b6ea18-f748-4a7a-96a2-f86978bc495d")
@@ -15517,11 +15516,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "64caf627-82b6-489f-aaae-453360286694")
-		(at 97.733 42.974)
+		(at 101.6 46.575 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R26"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "d52fcdcd-881f-4e3e-ab04-7ac05dfff6fd")
 			(effects
@@ -15532,7 +15531,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e2f95648-ba1b-4900-aba6-ba8a85c7c389")
 			(effects
@@ -15543,7 +15542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bde37574-ccb4-4fdc-8d91-96ac9cba788c")
@@ -15555,7 +15554,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0307df45-ed98-44c5-a705-6827bbc1a4ae")
@@ -15614,7 +15613,7 @@
 			(uuid "5f6227de-a7a2-4288-8c08-68835ceaa62f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "7f426b1f-434e-4f54-8d36-86c790db811b")
 			(effects
@@ -15625,7 +15624,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15634,7 +15633,7 @@
 			(uuid "8447f46a-7bfb-4144-b0fe-37eb6d22b2a8")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18503,11 +18502,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "827efef1-aa81-4950-9d1f-69f189cf2a06")
-		(at 97.733 45.484)
+		(at 101.6 42.355 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R27"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "d9eaa9f9-79f7-4c0d-9aa5-d1f3ccc05cd7")
 			(effects
@@ -18518,7 +18517,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "c958303f-42b6-4636-80ce-0499a7f627ef")
 			(effects
@@ -18529,7 +18528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "831ee0d6-e845-4e38-9878-f7768451c48b")
@@ -18541,7 +18540,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d08c9095-6c5a-4bcd-93a2-1d70f16d2856")
@@ -18558,16 +18557,6 @@
 		(sheetfile "real_time_clock.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.237258 -0.5225)
-			(end 0.237258 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6d65c955-57f6-4882-8d60-461167df8c36")
-		)
-		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
 			(stroke
@@ -18576,6 +18565,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "8e476a4c-af3c-4352-ba38-f6769a616529")
+		)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6d65c955-57f6-4882-8d60-461167df8c36")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -18600,7 +18599,7 @@
 			(uuid "f9c70691-c407-4db9-a2f5-47454bbafd07")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "bf204a87-7fb7-4728-ba85-8b9195cb42b7")
 			(effects
@@ -18611,7 +18610,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18620,7 +18619,7 @@
 			(uuid "7d8f3062-ab9b-4008-b39e-82bf34e4ba4b")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20524,13 +20523,13 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9ab71565-2d7e-400d-9d0f-703fc62e246c")
-		(at 97.733 40.464)
+		(at 86.36 46.495 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C34"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "08c8ae02-48c4-45fb-a4a3-d1e846d91a71")
+			(uuid "ff6289ca-1477-47d7-99ff-ff4cd7820998")
 			(effects
 				(font
 					(size 1 1)
@@ -20539,9 +20538,9 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "9bd074a5-0dbf-4292-8db9-0fb8bcc00e84")
+			(uuid "c65c378b-ee15-460d-a505-f06138ebdf8d")
 			(effects
 				(font
 					(size 1 1)
@@ -20550,10 +20549,10 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f95901c-2c9d-48db-9a5f-b0d76a6861d0")
+			(uuid "8db3a1db-11f2-4912-b177-e41ba0be50ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20562,10 +20561,10 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af6e8390-17da-45d9-9448-2b1825c76c0f")
+			(uuid "74cd2748-93f6-43b0-8132-38dcff11d06f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20579,16 +20578,6 @@
 		(sheetfile "real_time_clock.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "19ed7a2c-e460-4af1-bd89-762a0180960d")
-		)
-		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
 			(stroke
@@ -20597,6 +20586,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "4743b4c3-4ca7-4dcc-8e9d-b1846a620e7a")
+		)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "19ed7a2c-e460-4af1-bd89-762a0180960d")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -20621,7 +20620,7 @@
 			(uuid "0f6df41c-16de-4e5e-a2d5-7dcd765a384c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "2427b2f8-8c44-47d7-85a1-4fb330b4c922")
 			(effects
@@ -20632,7 +20631,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20641,7 +20640,7 @@
 			(uuid "c0368686-3cb6-41b3-961f-c70d36d05f4a")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22328,11 +22327,11 @@
 	(footprint "eclectronics_nixie_footprints:nixies-us-IN-14"
 		(layer "F.Cu")
 		(uuid "aa5d3c80-39d4-4351-8a22-4e4bc0f2eeec")
-		(at 71.3241 45.66666)
+		(at 255.48082 98.66122)
 		(property "Reference" "N6"
 			(at 10.63498 -0.635 90)
 			(layer "F.SilkS")
-			(uuid "e8901040-e447-4dd9-a00d-2c189d973489")
+			(uuid "d5f931cc-6973-4747-953e-f18c0a7356b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22343,7 +22342,7 @@
 		(property "Value" "IN-14"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "c1f7c1a9-4c42-461e-8e38-adaa295bdcc4")
+			(uuid "c1296f12-92a3-4b01-b495-f2305fae2662")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22355,7 +22354,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "36dfd40b-56ad-4754-bd67-2a9b3ef7cce1")
+			(uuid "3d4ec049-bd88-4710-aba1-39a5c8307f89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22367,7 +22366,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b82fbe15-2e53-467f-9ef7-b9dc8fe2ad3f")
+			(uuid "82a5b873-6e50-4f36-aa26-81ac9f5d7cc5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23294,7 +23293,7 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "b3ed8097-c333-46b0-abd3-0dff454c7227")
-		(at 19.768 53.579)
+		(at 255.48082 98.66122)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D12"
@@ -25571,7 +25570,7 @@
 			(size 1 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 267 "unconnected-(X1-ENA-Pad1)")
+			(net 266 "unconnected-(X1-ENA-Pad1)")
 			(pinfunction "ENA")
 			(pintype "input+no_connect")
 			(thermal_bridge_angle 45)
@@ -27424,7 +27423,7 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "db399e63-1850-427a-8a2c-afe954175877")
-		(at 19.768 33.719)
+		(at 178.77536 99.06)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D9"
@@ -29287,7 +29286,7 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "ecc7d59e-2bc9-48a1-b868-df3b8e3ad32e")
-		(at 19.768 46.959)
+		(at 230.08082 98.66122)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D11"
@@ -31344,7 +31343,7 @@
 		(property "Reference" "R39"
 			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
-			(uuid "8f3267d1-c5b3-44d9-89c8-d3fd53f76255")
+			(uuid "4749fbb0-d8ff-462c-bee0-f35d2abfef0d")
 			(effects
 				(font
 					(size 1 1)
@@ -31355,7 +31354,7 @@
 		(property "Value" "DNP"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
-			(uuid "9a05ff47-1c1a-4dc4-b395-a271e156b9ec")
+			(uuid "5849e235-4eab-4fda-a08a-7c6de25c565a")
 			(effects
 				(font
 					(size 1 1)
@@ -31367,7 +31366,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98d7f7f0-373f-4b8e-84b3-8cf4a05d560b")
+			(uuid "624c7227-3aaf-47de-857f-2161efc583bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31379,7 +31378,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "93e5b8c1-20b9-4f92-90f5-93c82e0b9ac1")
+			(uuid "591470e4-906a-4667-a6e5-b7b6806a90af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31705,7 +31704,7 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "fc226e62-1450-4ea6-bedd-9f55e95f8ba1")
-		(at 19.768 40.339)
+		(at 204.68082 98.66122)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D10"

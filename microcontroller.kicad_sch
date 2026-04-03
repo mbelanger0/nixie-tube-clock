@@ -6353,56 +6353,6 @@
 		)
 		(uuid "1677f475-1053-49f7-969a-a86c5669e185")
 	)
-	(label "SR_STR_3V3"
-		(at 167.64 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3afee127-1f4a-4447-aa71-47914cbbeae6")
-	)
-	(label "LED_LOGIC_3V3"
-		(at 167.64 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a0fbeaf-e924-4591-a1ab-b531ab94c4b0")
-	)
-	(label "RTC_SCL"
-		(at 167.64 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "502ce373-fc21-4045-98d7-591c4e78faf1")
-	)
-	(label "RTC_SDA"
-		(at 167.64 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56fb29fb-78f9-429b-a6e4-55df4113c2ae")
-	)
-	(label "SR_DATA_IN_3V3"
-		(at 167.64 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ece7bd7-b9a7-4987-9312-cf6f169c138a")
-	)
 	(label "GPIO23"
 		(at 167.64 143.51 0)
 		(effects
@@ -6443,26 +6393,6 @@
 		)
 		(uuid "935fb088-3dd0-4da5-a8dd-09da07a31295")
 	)
-	(label "SR_CLK_3V3"
-		(at 167.64 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3ede4c3-1889-4dab-b73c-bbb9e21be720")
-	)
-	(label "SR_OE_3V3"
-		(at 167.64 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c0864bb5-c160-4b37-b7df-c69ff7205676")
-	)
 	(label "RUN"
 		(at 106.68 57.15 180)
 		(effects
@@ -6492,6 +6422,160 @@
 			(justify left bottom)
 		)
 		(uuid "fcb2aaca-861c-4fe5-92e5-9d45edee4194")
+	)
+	(global_label "SR_CLK_3V3"
+		(shape input)
+		(at 167.64 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "208dfe8b-0f99-4945-a95e-86bf8b0be13d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.1156 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RTC_SCL"
+		(shape input)
+		(at 167.64 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "541b85e2-0317-4d92-a703-c9859a68e989")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.608 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SR_OE_3V3"
+		(shape input)
+		(at 167.64 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b0a9449-2bef-4f35-a062-bcc7d0cab41e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.027 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SR_STR_3V3"
+		(shape input)
+		(at 167.64 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6eff4cd9-dd9c-463b-a700-c26881f8e205")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.9946 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RTC_SDA"
+		(shape input)
+		(at 167.64 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b2f4678-63ca-479f-9daf-a645657bb128")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.6685 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SR_DATA_IN_3V3"
+		(shape input)
+		(at 167.64 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5f7a6c1-1e86-4c69-9ae6-d0a2aa10fbe0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.8652 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_LOGIC_3V3"
+		(shape input)
+		(at 167.64 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e88fb792-0259-40f4-9b27-bf68a5bd92f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.0185 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
