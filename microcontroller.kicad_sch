@@ -4819,12 +4819,6 @@
 		(uuid "045cc723-1fd5-428d-8dd2-cbe10b6fe19d")
 	)
 	(junction
-		(at 68.58 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08389941-0af3-451c-a4fa-10c951ac0b4e")
-	)
-	(junction
 		(at 105.41 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4921,6 +4915,12 @@
 		(uuid "754a3db1-9797-4fb8-a392-a208da2bf99c")
 	)
 	(junction
+		(at 68.58 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7abf5559-c597-4cbf-98cb-1186366b7b47")
+	)
+	(junction
 		(at 105.41 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4949,12 +4949,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d97ee33-4a9f-4005-9080-61362ca842c0")
-	)
-	(junction
-		(at 68.58 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a99ebd4e-4057-4f23-a17e-66150dd763d6")
 	)
 	(junction
 		(at 105.41 138.43)
@@ -5003,6 +4997,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfebdfb9-5756-44cb-abbb-ac32b4487bd3")
+	)
+	(junction
+		(at 68.58 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e087142f-449b-4b36-b626-9abd87af1362")
 	)
 	(junction
 		(at 105.41 102.87)
@@ -6662,15 +6662,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 118.11 90)
+		(at 100.33 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00990fa3-d511-4292-a750-51a40fc3b095")
-		(property "Reference" "C25"
-			(at 96.266 116.586 90)
+		(uuid "00987a81-c4ad-45fb-b9f6-83eccf0f2c5f")
+		(property "Reference" "C21"
+			(at 96.266 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6678,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 96.266 119.634 90)
+			(at 96.266 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +6686,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 117.1448 0)
+			(at 104.14 96.8248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +6695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 118.11 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,7 +6704,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 118.11 0)
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1276-1033-1-ND"
+			(at 100.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,82 +6731,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b67c4c64-3284-45e1-8ce6-d13deee9bdea")
+			(uuid "dcbd44a0-37f1-45aa-8188-a2efa468aa97")
 		)
 		(pin "2"
-			(uuid "217051cd-6a96-4f19-bf4d-353773e048f4")
+			(uuid "ccd1cb80-1b3e-4a4d-b5c6-d38f6c13981c")
 		)
 		(instances
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02386785-d659-4234-858a-e11337cdb185")
-		(property "Reference" "C31"
-			(at 96.266 177.546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1µF"
-			(at 96.266 180.594 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 178.1048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "652b9585-dd3f-4179-8f62-e5b3a35e4e14")
-		)
-		(pin "2"
-			(uuid "4d320ae6-50c6-4479-906a-f5305dc52bc0")
-		)
-		(instances
-			(project "nixie-tube-clock"
-				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C31")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6846,6 +6797,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 33.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "P5.10KHCT-ND"
+			(at 33.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6916,6 +6885,24 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "2073-USB4105-GF-ACT-ND"
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1B12"
 			(uuid "20f6326c-b97b-4117-9ad5-554f42111b5e")
 		)
@@ -6974,73 +6961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 100.33 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02d5f2fe-f518-4cb6-aab1-03bdd7d48ca6")
-		(property "Reference" "C29"
-			(at 96.266 167.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1µF"
-			(at 96.266 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 167.9448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec23bf56-1f17-4dc8-abf7-5a08df3af9ab")
-		)
-		(pin "2"
-			(uuid "3d54208c-4d91-46fa-a76d-16cea39bc821")
-		)
-		(instances
-			(project "nixie-tube-clock"
-				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 100.33 31.75 90)
 		(unit 1)
@@ -7091,6 +7011,24 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 100.33 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-27.0HRCT-ND"
+			(at 100.33 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89afebe9-e8e5-4d33-8a18-9d9c3c8a4dc1")
 		)
@@ -7101,6 +7039,176 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06fe5d72-41bf-4f79-be29-6f4b18de216e")
+		(property "Reference" "C25"
+			(at 96.266 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 96.266 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.14 117.1448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1276-1033-1-ND"
+			(at 100.33 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "789e441f-eaf0-413c-87b1-99df4dea6964")
+		)
+		(pin "2"
+			(uuid "12ce8b99-f82d-445f-a430-da649123ac7b")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08b21697-6366-49b2-bfd4-fd3947a5c159")
+		(property "Reference" "C31"
+			(at 96.266 177.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 96.266 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.14 178.1048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1276-1033-1-ND"
+			(at 100.33 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9d45c4a-4632-4372-8d1b-62745bbbbfec")
+		)
+		(pin "2"
+			(uuid "7c8eb30f-f2f6-4d3b-847f-2c90cb10a850")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -7441,15 +7549,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 133.35 90)
+		(at 100.33 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "197aa040-44b3-42b9-b2b9-cc5623615cfd")
-		(property "Reference" "C26"
-			(at 96.266 131.826 90)
+		(uuid "1805a13e-3a45-42a3-b4f2-809dace4aa69")
+		(property "Reference" "C29"
+			(at 96.266 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7565,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 96.266 134.874 90)
+			(at 96.266 170.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7573,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 132.3848 0)
+			(at 104.14 167.9448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7582,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 133.35 0)
+			(at 100.33 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +7591,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 133.35 0)
+			(at 100.33 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1276-1033-1-ND"
+			(at 100.33 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,15 +7618,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "35c271e0-d7cb-4ce4-84c4-c1d5713f8254")
+			(uuid "ca5c27f5-da37-4474-b404-b3c457b3b65e")
 		)
 		(pin "2"
-			(uuid "a2dd7180-ab69-4c70-a13a-916e4ea427d1")
+			(uuid "c8324860-471d-4c13-a479-0ebaacc9ee71")
 		)
 		(instances
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C26")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -7625,6 +7751,24 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "P5.10KHCT-ND"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a99a3c32-0032-40d5-834f-6c0aec6827c4")
 		)
@@ -7709,23 +7853,23 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 173.99 90)
+		(at 100.33 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "32e26230-022c-4c59-bd76-e7f665f7d878")
-		(property "Reference" "C30"
-			(at 96.266 172.466 90)
+		(uuid "31828873-27a9-4d42-b710-c6d3539fac42")
+		(property "Reference" "C22"
+			(at 96.266 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7µF"
-			(at 96.266 175.514 90)
+		(property "Value" "0.1µF"
+			(at 96.266 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +7877,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 173.0248 0)
+			(at 104.14 101.9048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +7886,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 173.99 0)
+			(at 100.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7895,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 173.99 0)
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1276-1033-1-ND"
+			(at 100.33 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,15 +7922,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "72a0c154-5814-4153-b860-80b74c8f7b06")
+			(uuid "ed2ac377-86d7-4dc2-b6a0-6bed03015fd1")
 		)
 		(pin "2"
-			(uuid "b31fb0aa-5dae-48d8-b7e7-9d0c9c750c1f")
+			(uuid "2a47aa8e-b027-42d9-bb00-ff71ad3d8274")
 		)
 		(instances
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C30")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7821,6 +7983,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 261.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 261.62 120.65 0)
 			(effects
 				(font
@@ -7893,6 +8064,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "13-RC0603FR-0733RLCT-ND"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25ca2305-94fa-462c-b886-783aa1ddec16")
 		)
@@ -7957,6 +8146,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 182.88 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "P5.10KHCT-ND"
+			(at 182.88 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8306,73 +8513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 100.33 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43f8885b-dc3d-4555-9ef2-c1a1f2542916")
-		(property "Reference" "C24"
-			(at 96.266 111.506 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1µF"
-			(at 96.266 114.554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 112.0648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bcfb3e7-6364-4ee7-9736-c9239a703a18")
-		)
-		(pin "2"
-			(uuid "86b5199f-4e6a-4d3f-82f9-444e9cd5d2ed")
-		)
-		(instances
-			(project "nixie-tube-clock"
-				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 250.19 29.21 270)
 		(unit 1)
@@ -8556,6 +8696,24 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 190.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1497-XZCM2MOK54WA-1VFCT-ND"
+			(at 190.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc2e0153-d69c-455b-90f3-3cc572e22930")
 		)
@@ -8691,6 +8849,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 19.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "SW1020CT-ND"
+			(at 19.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1db653fa-0ad6-4a1e-9e75-1099d7edb629")
 		)
@@ -8701,73 +8877,6 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53ace635-2082-4b1a-bd72-72d2bac523f7")
-		(property "Reference" "C23"
-			(at 96.266 106.426 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1µF"
-			(at 96.266 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 106.9848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afcfc30d-dfc4-4210-bac5-78c68826cb37")
-		)
-		(pin "2"
-			(uuid "1a245813-c032-46a0-80ac-ca1733b2f0b5")
-		)
-		(instances
-			(project "nixie-tube-clock"
-				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8818,6 +8927,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "490-GRM188Z71C475KE21DCT-ND"
+			(at 100.33 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,6 +9019,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 246.38 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "160-1887-1-ND"
+			(at 246.38 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9095,6 +9240,24 @@
 				)
 			)
 		)
+		(property "DigikeyPN" "1276-1033-1-ND"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b3cfedd-abdc-41f7-aca9-5b11cde4d233")
 		)
@@ -9155,6 +9318,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "2648-SC1509-A4CT-ND"
 			(at 137.16 102.87 0)
 			(effects
 				(font
@@ -9407,6 +9588,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a56d0636-d1db-470f-87b8-42c87437b061")
 		)
@@ -9488,6 +9678,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 68.58 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71c9c0ab-7e1b-4fd3-b5cf-4531aa0159dd")
+		(property "Reference" "C18"
+			(at 63.246 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7µF"
+			(at 63.5 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.6148 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "490-GRM188Z71C475KE21DCT-ND"
+			(at 68.58 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55023c6e-dcf1-4dca-bc51-1f2d2d5b5413")
+		)
+		(pin "2"
+			(uuid "ec5b562a-13b7-4a41-a478-feba2da401f7")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 114.3 0)
 		(unit 1)
@@ -9534,6 +9809,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 261.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 261.62 114.3 0)
 			(effects
 				(font
@@ -9670,6 +9954,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPN" "490-18214-1-ND"
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9941,6 +10243,24 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "W25Q32JVZPIQ TR"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0eab97b6-9e96-4c5d-8dfe-a937e0abc98d")
 		)
@@ -9972,6 +10292,91 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8295c0f2-0338-454d-aa0a-21a542dc879f")
+		(property "Reference" "C28"
+			(at 96.266 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7µF"
+			(at 96.266 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.14 147.6248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "490-GRM188Z71C475KE21DCT-ND"
+			(at 100.33 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5bc1758-9d1e-4d6c-8712-d1d67cacf630")
+		)
+		(pin "2"
+			(uuid "00b1f170-e1de-4419-a5eb-6616f68b59b6")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -10024,6 +10429,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 261.62 133.35 0)
 			(effects
 				(font
@@ -10094,6 +10508,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigikeyPN" "490-18214-1-ND"
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10363,6 +10795,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 261.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
@@ -10570,73 +11011,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 100.33 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a949b43-83d2-4156-844f-9a92bf4683a8")
-		(property "Reference" "C21"
-			(at 96.266 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1µF"
-			(at 96.266 99.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 96.8248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48065f15-093c-40a9-a280-436c6381882a")
-		)
-		(pin "2"
-			(uuid "eb97924a-235b-4704-ba9e-c63351291123")
-		)
-		(instances
-			(project "nixie-tube-clock"
-				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 39.37 17.78 0)
 		(unit 1)
@@ -10702,73 +11076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 100.33 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f700c9b-3242-4ac2-ac3e-2a7753aace11")
-		(property "Reference" "C28"
-			(at 96.266 147.066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7µF"
-			(at 96.266 150.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 147.6248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d9496e5-af14-446b-8c64-40dbfd708ad8")
-		)
-		(pin "2"
-			(uuid "6e28e19f-4bad-412a-ae11-31938409323b")
-		)
-		(instances
-			(project "nixie-tube-clock"
-				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 182.88 148.59 90)
 		(unit 1)
@@ -10819,6 +11126,24 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 182.88 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-1.00KHRCT-ND"
+			(at 182.88 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ccb432f3-02e3-46b9-8fe7-43678081e9bc")
 		)
@@ -10829,75 +11154,6 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 68.58 45.72 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a373f92d-40d1-4330-b0d6-6684c62c5e9f")
-		(property "Reference" "C18"
-			(at 64.77 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7µF"
-			(at 64.77 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 69.5452 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f980562-17d2-4c81-abfd-99fc67134fb7")
-		)
-		(pin "2"
-			(uuid "633ee209-7b70-434e-a2f4-db1989772499")
-		)
-		(instances
-			(project "nixie-tube-clock"
-				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10955,6 +11211,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-1.00KHRCT-ND"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11026,6 +11300,15 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 270.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8e49800-7636-4c9c-9004-7de0c156afeb")
 		)
@@ -11095,6 +11378,24 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 182.88 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-1.00KHRCT-ND"
+			(at 182.88 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc15a542-9484-4f0c-a430-ec65ea13ad10")
 		)
@@ -11105,6 +11406,91 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2227754-783d-458f-866d-9fac2be216ba")
+		(property "Reference" "C23"
+			(at 96.266 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 96.266 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.14 106.9848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1276-1033-1-ND"
+			(at 100.33 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "544e3cef-271e-4506-b2a7-75ded003a5b4")
+		)
+		(pin "2"
+			(uuid "1522c858-2f7d-4747-9703-4b1a06e084c4")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -11289,6 +11675,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 80.01 45.72 0)
 			(effects
 				(font
@@ -11572,6 +11967,24 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "P5.10KHCT-ND"
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c333db7-70d8-4165-a600-babcec1af1a5")
 		)
@@ -11636,6 +12049,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 182.88 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-1.00KHRCT-ND"
+			(at 182.88 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11837,6 +12268,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "1276-1033-1-ND"
+			(at 100.33 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a973e496-5466-4580-9979-fbc5a4fba1f8")
 		)
@@ -11847,6 +12296,176 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9885d7e-322b-41f2-a284-466c18b8a3fb")
+		(property "Reference" "C30"
+			(at 96.266 172.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7µF"
+			(at 96.266 175.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.14 173.0248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "490-GRM188Z71C475KE21DCT-ND"
+			(at 100.33 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28442b3a-fc7a-4c57-ba5f-a848eb415d74")
+		)
+		(pin "2"
+			(uuid "5ee35fd5-2f44-4197-867e-7d45e8364c76")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da018ef9-3555-43f3-8081-f21a96409180")
+		(property "Reference" "C19"
+			(at 86.106 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7µF"
+			(at 86.106 160.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 93.98 157.7848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "490-GRM188Z71C475KE21DCT-ND"
+			(at 90.17 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 90.17 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a73fb0fd-b774-4950-b3fb-6e7bea49d3a4")
+		)
+		(pin "2"
+			(uuid "a40dd24b-1372-4eda-893c-288a1aef65be")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -11920,73 +12539,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 90.17 158.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "def868a4-304b-4e59-8e6a-2ef71e8f67bb")
-		(property "Reference" "C19"
-			(at 86.106 157.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7µF"
-			(at 86.106 160.274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 93.98 157.7848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 90.17 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af9c6721-ef3c-4f98-b111-3570ed4c0475")
-		)
-		(pin "2"
-			(uuid "21b9c9e3-3aac-4aae-a6a4-b95e46d5f3d0")
-		)
-		(instances
-			(project "nixie-tube-clock"
-				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Eclectronics:IN-S85TATRGB")
 		(at 195.58 133.35 0)
 		(unit 1)
@@ -12033,6 +12585,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 195.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1830-1086-1-ND"
 			(at 195.58 133.35 0)
 			(effects
 				(font
@@ -12116,6 +12686,24 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 19.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "P5.10KHCT-ND"
+			(at 19.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3874ae8-5a78-4c0c-9159-72d56f253037")
 		)
@@ -12182,6 +12770,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 219.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12257,6 +12854,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "SW1020CT-ND"
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d89d1c2-6011-46c1-ada8-de72f75e41fc")
 		)
@@ -12274,15 +12889,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 102.87 90)
+		(at 100.33 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eec49521-ca72-4178-a794-cfa9ab4e5330")
-		(property "Reference" "C22"
-			(at 96.266 101.346 90)
+		(uuid "f66665b8-1e24-45bf-9655-cf85bec20fc6")
+		(property "Reference" "C24"
+			(at 96.266 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12290,7 +12905,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 96.266 104.394 90)
+			(at 96.266 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12298,7 +12913,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 101.9048 0)
+			(at 104.14 112.0648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12307,7 +12922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 102.87 0)
+			(at 100.33 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12316,7 +12931,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 102.87 0)
+			(at 100.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1276-1033-1-ND"
+			(at 100.33 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12325,15 +12958,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d78c539-193b-41be-ae08-ab139f7c1d98")
+			(uuid "8da3566a-98de-4e82-96e5-95a475a15711")
 		)
 		(pin "2"
-			(uuid "cab835c8-35c2-4287-a995-15472d9a8407")
+			(uuid "dd87e093-a1bf-4403-bc3c-660eff64b06b")
 		)
 		(instances
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -12388,6 +13021,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "311-27.0HRCT-ND"
+			(at 100.33 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12467,6 +13118,91 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb05f5cf-6cce-4158-88c4-83ff590c1e19")
+		(property "Reference" "C26"
+			(at 96.266 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 96.266 134.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.14 132.3848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1276-1033-1-ND"
+			(at 100.33 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 100.33 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3ca48b7-699d-49ef-b858-391158ef3058")
+		)
+		(pin "2"
+			(uuid "deb2fd91-fa61-4f9d-8386-912ee409709e")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "C26")
 					(unit 1)
 				)
 			)

@@ -3851,6 +3851,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 153.67 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "faf6578e-c124-434c-8e15-61c988638829")
 		)
@@ -3935,6 +3944,15 @@
 			)
 		)
 		(property "DigikeyPN" "541-634KCCT-ND"
+			(at 189.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 189.23 85.09 90)
 			(effects
 				(font
@@ -4035,6 +4053,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 189.23 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d37e5335-292f-43ee-821a-822c3380a4b9")
 		)
@@ -4120,6 +4147,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 114.3 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "MH2029-600YCT-ND"
+			(at 114.3 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9cc0b27-4cce-4c40-b1d9-eaa32cf2b5a2")
 		)
@@ -4196,6 +4241,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 160.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4313,6 +4367,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "941df7ce-36b1-4244-a743-4f42181f59d6")
 		)
@@ -4403,6 +4466,15 @@
 			)
 		)
 		(property "DigikeyPN" "MMBTA42TPMSCT-ND"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -4563,6 +4635,15 @@
 			)
 		)
 		(property "DigikeyPN" "490-3550-1-ND"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 198.12 86.36 0)
 			(effects
 				(font
@@ -4966,6 +5047,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" "MH2029-600YCT-ND"
+			(at 223.52 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "MH2029-600YCT-ND"
+			(at 223.52 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c29f3ff-6580-48a9-819e-e0b56d2dd6d0")
 		)
@@ -5061,6 +5160,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 238.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57424487-f056-4125-87bb-fb219fd20ba6")
 		)
@@ -5145,6 +5253,15 @@
 			)
 		)
 		(property "DigikeyPN" "541-100KCCT-ND"
+			(at 62.23 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 62.23 119.38 90)
 			(effects
 				(font
@@ -5307,6 +5424,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2133cef4-80ac-4c1c-9ec1-7892e9a8331d")
 		)
@@ -5391,6 +5517,15 @@
 			)
 		)
 		(property "DigikeyPN" "541-60.4KCCT-ND"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 105.41 99.06 0)
 			(effects
 				(font
@@ -5494,6 +5629,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0588d4d-c1e2-48f7-a0ef-219ace5e1c07")
 		)
@@ -5580,6 +5724,15 @@
 			)
 		)
 		(property "DigikeyPN" "399-C0805C102J5GACTUCT-ND"
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 147.32 115.57 0)
 			(effects
 				(font
@@ -5690,6 +5843,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad8dfd97-e221-4f7a-a58a-bdf01057148a")
 		)
@@ -5774,6 +5936,15 @@
 			)
 		)
 		(property "DigikeyPN" "541-2.00KCCT-ND"
+			(at 85.09 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 85.09 85.09 90)
 			(effects
 				(font
@@ -6005,6 +6176,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1a2474c2-6c64-4511-ad90-3f88f61d581d")
 		)
@@ -6097,6 +6277,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 156.21 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e279d008-7746-4e3b-a90c-c900429e8098")
 		)
@@ -6181,6 +6370,15 @@
 			)
 		)
 		(property "DigikeyPN" "311-1.00KHRCT-ND"
+			(at 53.34 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 53.34 130.81 90)
 			(effects
 				(font
@@ -6594,6 +6792,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06cbb471-d0cd-4661-a4ed-f6f48b1088af")
 		)
@@ -6678,6 +6885,15 @@
 			)
 		)
 		(property "DigikeyPN" "541-4.12KCCT-ND"
+			(at 137.16 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 137.16 101.6 90)
 			(effects
 				(font
@@ -6797,6 +7013,15 @@
 			)
 		)
 		(property "LCSCPN" "C2657971"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 113.03 109.22 0)
 			(effects
 				(font
@@ -7042,6 +7267,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "467635b8-61cb-446e-834f-a59e753c392f")
 		)
@@ -7169,6 +7403,15 @@
 				)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 106.68 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ae86849b-83ac-4969-9131-91c4a7ea31cf")
 		)
@@ -7256,6 +7499,15 @@
 			)
 		)
 		(property "DigikeyPN" "490-3550-1-ND"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 205.74 86.36 0)
 			(effects
 				(font
@@ -7359,6 +7611,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab765e67-c39e-42c1-8e32-428ae6138516")
 		)
@@ -7446,6 +7707,15 @@
 			)
 		)
 		(property "DigikeyPN" "445-7965-1-ND"
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 213.36 86.36 0)
 			(effects
 				(font
@@ -7549,6 +7819,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c783d426-ace8-4590-9fc2-d0180e393fa6")
 		)
@@ -7636,6 +7915,15 @@
 			)
 		)
 		(property "DigikeyPN" "399-C0603C104K4RACTUCT-ND"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 119.38 85.09 0)
 			(effects
 				(font
@@ -7736,6 +8024,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 146.05 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "869b84ff-e2db-4a12-bec2-dfb16da02374")
 		)
@@ -7798,6 +8095,15 @@
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 43.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
+			(at 43.18 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,6 +8206,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6fbfafd-0e98-4f48-801c-3308bb1328e0")
 		)
@@ -7987,6 +8302,15 @@
 			)
 		)
 		(property "DigikeyPN" "587-5426-1-ND"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 143.51 81.28 0)
 			(effects
 				(font
@@ -8150,6 +8474,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43d7682c-00fd-4bdd-bc88-4938ef2047b8")
 		)
@@ -8296,6 +8629,15 @@
 			)
 		)
 		(property "DigikeyPN" "311-0.0GRCT-ND"
+			(at 111.76 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 111.76 130.81 90)
 			(effects
 				(font
@@ -8459,6 +8801,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKeyPN" ""
+			(at 166.37 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be4f1082-f39b-4871-8b4c-09ea27a2126f")
 		)
@@ -8545,6 +8896,15 @@
 			)
 		)
 		(property "DigikeyPN" "732-8029-1-ND"
+			(at 101.6 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" ""
 			(at 101.6 130.81 90)
 			(effects
 				(font
