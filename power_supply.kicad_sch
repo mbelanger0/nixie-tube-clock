@@ -3798,7 +3798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_CommonMode_Wurth_WE-CNSW-1206"
+		(property "Footprint" "eclectronics_nixie_footprints:WE-PD_1210"
 			(at 153.67 76.2 0)
 			(effects
 				(font
