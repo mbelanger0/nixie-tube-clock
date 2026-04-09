@@ -714,7 +714,7 @@
 		(uuid "1d7df60e-351b-4f9d-9d7c-90e87385a7e7")
 	)
 	(embedded_fonts no)
-	(model "/home/bminch/Documents/KiCad/Eclectronics/3dshapes/RP2350A-QFN60.step"
+	(model "${KIPRJMOD}/Eclectronics/3dshapes/RP2350A-QFN60.step"
 		(offset
 			(xyz 0 0 0)
 		)
