@@ -380,177 +380,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -6508,7 +6337,7 @@
 	)
 	(global_label "SR_CLK_3V3"
 		(shape input)
-		(at 167.64 77.47 0)
+		(at 167.64 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6518,7 +6347,7 @@
 		)
 		(uuid "208dfe8b-0f99-4945-a95e-86bf8b0be13d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.1156 77.47 0)
+			(at 182.1156 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +6425,7 @@
 	)
 	(global_label "SR_DATA_IN_3V3"
 		(shape input)
-		(at 167.64 82.55 0)
+		(at 167.64 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6606,7 +6435,7 @@
 		)
 		(uuid "b5f7a6c1-1e86-4c69-9ae6-d0a2aa10fbe0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8652 82.55 0)
+			(at 185.8652 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +6447,7 @@
 	)
 	(global_label "LED_LOGIC_3V3"
 		(shape input)
-		(at 167.64 97.79 0)
+		(at 167.64 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6628,7 +6457,7 @@
 		)
 		(uuid "e88fb792-0259-40f4-9b27-bf68a5bd92f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.0185 97.79 0)
+			(at 185.0185 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11241,87 +11070,6 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 270.51 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaaa04fe-e04b-4924-ae22-87ce70b08aa6")
-		(property "Reference" "J7"
-			(at 273.05 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DEBUG"
-			(at 273.05 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 270.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKeyPN" ""
-			(at 270.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8e49800-7636-4c9c-9004-7de0c156afeb")
-		)
-		(pin "2"
-			(uuid "1f2983d2-8730-48fc-8f67-1266bd3e2996")
-		)
-		(pin "3"
-			(uuid "25249c88-c6f6-4823-9c3e-c0f9617df866")
-		)
-		(instances
-			(project "nixie-tube-clock"
-				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
-					(reference "J7")
 					(unit 1)
 				)
 			)
