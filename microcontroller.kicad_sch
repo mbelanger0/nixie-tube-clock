@@ -7280,6 +7280,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "8209665f-6279-4f86-a9a7-9e6ba8170a5d")
 		)
@@ -7371,6 +7380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcbd44a0-37f1-45aa-8188-a2efa468aa97")
 		)
@@ -7405,7 +7423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1k"
 			(at 35.56 80.0099 0)
 			(effects
 				(font
@@ -7450,6 +7468,15 @@
 			)
 		)
 		(property "DigikeyPN" "P5.10KHCT-ND"
+			(at 33.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 33.02 78.74 0)
 			(effects
 				(font
@@ -7536,6 +7563,15 @@
 			)
 		)
 		(property "DigikeyPN" "2073-USB4105-GF-ACT-ND"
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 22.86 33.02 0)
 			(effects
 				(font
@@ -7737,6 +7773,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89afebe9-e8e5-4d33-8a18-9d9c3c8a4dc1")
 		)
@@ -7822,6 +7867,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "789e441f-eaf0-413c-87b1-99df4dea6964")
 		)
@@ -7899,6 +7953,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 100.33 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 100.33 179.07 90)
 			(effects
 				(font
@@ -8324,6 +8387,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca5c27f5-da37-4474-b404-b3c457b3b65e")
 		)
@@ -8423,7 +8495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1k"
 			(at 46.99 43.1799 0)
 			(effects
 				(font
@@ -8468,6 +8540,15 @@
 			)
 		)
 		(property "DigikeyPN" "P5.10KHCT-ND"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 44.45 41.91 0)
 			(effects
 				(font
@@ -8695,6 +8776,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed2ac377-86d7-4dc2-b6a0-6bed03015fd1")
 		)
@@ -8766,6 +8856,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 261.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 261.62 120.65 0)
 			(effects
 				(font
@@ -8856,6 +8955,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25ca2305-94fa-462c-b886-783aa1ddec16")
 		)
@@ -8888,7 +8996,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1k"
 			(at 191.77 143.51 90)
 			(effects
 				(font
@@ -8932,6 +9040,15 @@
 			)
 		)
 		(property "DigikeyPN" "P5.10KHCT-ND"
+			(at 191.77 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 191.77 143.51 90)
 			(effects
 				(font
@@ -9371,7 +9488,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 186.69 109.2199 0)
 			(effects
 				(font
@@ -9399,6 +9516,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 184.15 107.95 0)
 			(effects
 				(font
@@ -9624,6 +9750,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 190.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc2e0153-d69c-455b-90f3-3cc572e22930")
 		)
@@ -9777,6 +9912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 19.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1db653fa-0ad6-4a1e-9e75-1099d7edb629")
 		)
@@ -9854,6 +9998,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 100.33 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 100.33 138.43 90)
 			(effects
 				(font
@@ -9941,6 +10094,15 @@
 			)
 		)
 		(property "DigikeyPN" "160-1887-1-ND"
+			(at 246.38 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 246.38 41.91 90)
 			(effects
 				(font
@@ -10168,6 +10330,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b3cfedd-abdc-41f7-aca9-5b11cde4d233")
 		)
@@ -10246,6 +10417,15 @@
 			)
 		)
 		(property "DigikeyPN" "2648-SC1509-A4CT-ND"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 137.16 102.87 0)
 			(effects
 				(font
@@ -10507,6 +10687,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a56d0636-d1db-470f-87b8-42c87437b061")
 		)
@@ -10657,6 +10846,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55023c6e-dcf1-4dca-bc51-1f2d2d5b5413")
 		)
@@ -10728,6 +10926,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 261.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 261.62 114.3 0)
 			(effects
 				(font
@@ -10876,6 +11083,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 234.95 34.29 0)
 			(effects
 				(font
@@ -11119,7 +11335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 220.98 109.2199 0)
 			(effects
 				(font
@@ -11147,6 +11363,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 218.44 107.95 0)
 			(effects
 				(font
@@ -11233,6 +11458,15 @@
 			)
 		)
 		(property "DigikeyPN" "W25Q32JVZPIQ TR"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 71.12 74.93 0)
 			(effects
 				(font
@@ -11347,6 +11581,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5bc1758-9d1e-4d6c-8712-d1d67cacf630")
 		)
@@ -11426,6 +11669,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
@@ -11454,7 +11706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 186.69 92.7099 0)
 			(effects
 				(font
@@ -11482,6 +11734,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 184.15 91.44 0)
 			(effects
 				(font
@@ -11570,6 +11831,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 204.47 34.29 0)
 			(effects
 				(font
@@ -11677,6 +11947,15 @@
 			)
 		)
 		(property "LCSCPN" "C266196"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 191.77 114.3 0)
 			(effects
 				(font
@@ -11959,6 +12238,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 261.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 261.62 127 0)
 			(effects
 				(font
@@ -12255,7 +12543,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 182.88 148.59 90)
 			(effects
 				(font
@@ -12299,6 +12587,15 @@
 			)
 		)
 		(property "DigikeyPN" "311-1.00KHRCT-ND"
+			(at 182.88 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 182.88 148.59 90)
 			(effects
 				(font
@@ -12407,7 +12704,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 248.92 35.5599 0)
 			(effects
 				(font
@@ -12452,6 +12749,15 @@
 			)
 		)
 		(property "DigikeyPN" "311-1.00KHRCT-ND"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 246.38 34.29 0)
 			(effects
 				(font
@@ -12559,7 +12865,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 191.77 138.43 90)
 			(effects
 				(font
@@ -12603,6 +12909,15 @@
 			)
 		)
 		(property "DigikeyPN" "311-1.00KHRCT-ND"
+			(at 191.77 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 191.77 138.43 90)
 			(effects
 				(font
@@ -12688,6 +13003,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 100.33 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 100.33 107.95 90)
 			(effects
 				(font
@@ -12899,6 +13223,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 80.01 45.72 0)
 			(effects
 				(font
@@ -13154,6 +13487,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "457b9574-3984-47ee-8c6e-89dfab2fcf62")
 		)
@@ -13260,7 +13602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1k"
 			(at 55.88 43.1799 0)
 			(effects
 				(font
@@ -13313,6 +13655,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c333db7-70d8-4165-a600-babcec1af1a5")
 		)
@@ -13345,7 +13696,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 182.88 153.67 90)
 			(effects
 				(font
@@ -13389,6 +13740,15 @@
 			)
 		)
 		(property "DigikeyPN" "311-1.00KHRCT-ND"
+			(at 182.88 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 182.88 153.67 90)
 			(effects
 				(font
@@ -13614,6 +13974,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a973e496-5466-4580-9979-fbc5a4fba1f8")
 		)
@@ -13699,6 +14068,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28442b3a-fc7a-4c57-ba5f-a848eb415d74")
 		)
@@ -13776,6 +14154,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 90.17 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 90.17 158.75 90)
 			(effects
 				(font
@@ -13939,6 +14326,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 204.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "290cfeda-ba5e-4f9e-be8e-4cdce04caff2")
 		)
@@ -14046,7 +14442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "5.1k"
 			(at 21.59 80.0099 0)
 			(effects
 				(font
@@ -14091,6 +14487,15 @@
 			)
 		)
 		(property "DigikeyPN" "P5.10KHCT-ND"
+			(at 19.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 19.05 78.74 0)
 			(effects
 				(font
@@ -14168,6 +14573,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 219.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 219.71 31.75 0)
 			(effects
 				(font
@@ -14267,6 +14681,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d89d1c2-6011-46c1-ada8-de72f75e41fc")
 		)
@@ -14352,6 +14775,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8da3566a-98de-4e82-96e5-95a475a15711")
 		)
@@ -14428,6 +14860,15 @@
 			)
 		)
 		(property "DigikeyPN" "311-27.0HRCT-ND"
+			(at 100.33 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 100.33 26.67 90)
 			(effects
 				(font
@@ -14580,6 +15021,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 100.33 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 100.33 133.35 90)
 			(effects
 				(font

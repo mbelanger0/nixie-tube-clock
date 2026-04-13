@@ -1425,6 +1425,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2c56459-aff2-4736-9c4f-622d3aa07459")
 		)
@@ -1537,7 +1546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "V"
+		(property "MFN" "Keystone Electronics"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -1546,7 +1555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "DC"
+		(property "MPN" "3034"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -1555,7 +1564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=+ 2=-"
+		(property "DigikeyPN" "36-3034-ND"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -1564,7 +1573,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKeyPN" ""
+		(property "LCSCPN" "C5199422"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -1791,6 +1800,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b79c39f6-f468-46d7-82df-8b7c44ea2897")
 		)
@@ -1879,6 +1897,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e4a297d-5070-4c7b-a2c7-94d71c45018f")
 		)
@@ -1959,6 +1986,15 @@
 			)
 		)
 		(property "DigikeyPN" "311-4.70KHRCT-ND"
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 111.76 97.79 0)
 			(effects
 				(font

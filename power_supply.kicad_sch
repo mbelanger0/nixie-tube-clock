@@ -3860,6 +3860,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 153.67 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "faf6578e-c124-434c-8e15-61c988638829")
 		)
@@ -3961,6 +3970,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 189.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be1f2933-eb41-4088-8022-58a240df0518")
 		)
@@ -4054,6 +4072,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 189.23 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 189.23 96.52 90)
 			(effects
 				(font
@@ -4165,6 +4192,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 114.3 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9cc0b27-4cce-4c40-b1d9-eaa32cf2b5a2")
 		)
@@ -4254,6 +4290,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 160.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4011910a-48a3-4cc2-b9b4-4f325dd62c83")
 		)
@@ -4314,7 +4359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.5652 83.82 0)
 			(effects
 				(font
@@ -4368,6 +4413,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 101.6 80.01 0)
 			(effects
 				(font
@@ -4475,6 +4529,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -4644,6 +4707,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 198.12 86.36 0)
 			(effects
 				(font
@@ -5065,6 +5137,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 223.52 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c29f3ff-6580-48a9-819e-e0b56d2dd6d0")
 		)
@@ -5169,6 +5250,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 238.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57424487-f056-4125-87bb-fb219fd20ba6")
 		)
@@ -5262,6 +5352,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 62.23 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 62.23 119.38 90)
 			(effects
 				(font
@@ -5433,6 +5532,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2133cef4-80ac-4c1c-9ec1-7892e9a8331d")
 		)
@@ -5526,6 +5634,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 105.41 99.06 0)
 			(effects
 				(font
@@ -5638,6 +5755,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0588d4d-c1e2-48f7-a0ef-219ace5e1c07")
 		)
@@ -5733,6 +5859,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 147.32 115.57 0)
 			(effects
 				(font
@@ -5852,6 +5987,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad8dfd97-e221-4f7a-a58a-bdf01057148a")
 		)
@@ -5945,6 +6089,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 85.09 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 85.09 85.09 90)
 			(effects
 				(font
@@ -6185,6 +6338,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1a2474c2-6c64-4511-ad90-3f88f61d581d")
 		)
@@ -6286,6 +6448,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 156.21 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e279d008-7746-4e3b-a90c-c900429e8098")
 		)
@@ -6379,6 +6550,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 53.34 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 53.34 130.81 90)
 			(effects
 				(font
@@ -6801,6 +6981,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06cbb471-d0cd-4661-a4ed-f6f48b1088af")
 		)
@@ -6894,6 +7083,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 137.16 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 137.16 101.6 90)
 			(effects
 				(font
@@ -7022,6 +7220,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 113.03 109.22 0)
 			(effects
 				(font
@@ -7276,6 +7483,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "467635b8-61cb-446e-834f-a59e753c392f")
 		)
@@ -7370,7 +7586,7 @@
 				)
 			)
 		)
-		(property "Value" "N.U."
+		(property "Value" "DNP"
 			(at 106.68 124.46 90)
 			(effects
 				(font
@@ -7404,6 +7620,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 106.68 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 106.68 124.46 90)
 			(effects
 				(font
@@ -7516,6 +7741,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d296452-8a51-4983-a942-be08ffb1e818")
 		)
@@ -7612,6 +7846,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 173.99 96.52 0)
 			(effects
 				(font
@@ -7724,6 +7967,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e7d4a22-73eb-41f2-b4c2-8a81fc71b11d")
 		)
@@ -7828,6 +8080,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c783d426-ace8-4590-9fc2-d0180e393fa6")
 		)
@@ -7852,7 +8113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6470ad4-22db-4cb7-8702-14ea5aa4bb3c")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 116.332 82.55 0)
 			(effects
 				(font
@@ -7932,6 +8193,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f07cf57-a71d-4811-8d77-59fc7193e51f")
 		)
@@ -7941,7 +8211,7 @@
 		(instances
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/ed9db208-54bf-4d07-9072-10a9fabb5289"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8033,6 +8303,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 146.05 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "869b84ff-e2db-4a12-bec2-dfb16da02374")
 		)
@@ -8103,6 +8382,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 43.18 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 43.18 135.89 90)
 			(effects
 				(font
@@ -8215,6 +8503,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6fbfafd-0e98-4f48-801c-3308bb1328e0")
 		)
@@ -8311,6 +8608,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 143.51 81.28 0)
 			(effects
 				(font
@@ -8483,6 +8789,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43d7682c-00fd-4bdd-bc88-4938ef2047b8")
 		)
@@ -8585,7 +8900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.76 129.032 90)
 			(effects
 				(font
@@ -8638,6 +8953,15 @@
 			)
 		)
 		(property "DigiKeyPN" ""
+			(at 111.76 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 111.76 130.81 90)
 			(effects
 				(font
@@ -8810,6 +9134,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 166.37 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be4f1082-f39b-4871-8b4c-09ea27a2126f")
 		)
@@ -8834,7 +9167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee3fdc34-d4ba-423e-94c0-4c9646ade654")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 99.822 129.54 90)
 			(effects
 				(font
@@ -8913,6 +9246,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 101.6 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "377a56ca-05d6-4c43-87af-601f0b8a15fa")
 		)
@@ -8922,7 +9264,7 @@
 		(instances
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/ed9db208-54bf-4d07-9072-10a9fabb5289"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
