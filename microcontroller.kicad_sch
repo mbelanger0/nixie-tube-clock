@@ -4170,6 +4170,321 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "carter_kicad_symbols:1825027-8 Right Angle Button"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 7.62 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "1825027-8"
+				(at 0.762 12.192 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "carter_kicad_footprints:SW2_1825027-C_TEC"
+				(at 1.27 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825027&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1825027-8"
+				(at 0.254 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switch SPST-NO Side Actuated Through Hole, Right Angle"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "TE Connectivity ALCOSWITCH Switches"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "1825027-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigikeyPN" "450-1657-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSCPN" "C266196"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1825027-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW2_1825027-C_TEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1825027-8 Right Angle Button_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 11.43 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.445 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.731 -3.81) (xy 8.509 -3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -4.191) (xy 8.255 -4.191)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.239 -4.572) (xy 8.001 -4.572)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.493 -4.953) (xy 7.747 -4.953)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.795 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 11.43 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1825027-8 Right Angle Button_1_1"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V1"
 			(power)
 			(pin_numbers
@@ -4666,6 +4981,12 @@
 		(uuid "111ba0fc-60d0-4a12-b270-ac0779d8da1b")
 	)
 	(junction
+		(at 243.84 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "115eecd3-410a-41f6-ba3f-001abb931095")
+	)
+	(junction
 		(at 52.07 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4702,6 +5023,12 @@
 		(uuid "2cb6e040-88f9-4975-86d7-b695602c272d")
 	)
 	(junction
+		(at 210.82 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c464698-9bcd-4e91-9f69-d64667153b92")
+	)
+	(junction
 		(at 33.02 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4712,6 +5039,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bbf9303-4596-43e8-9891-fe661c63dc52")
+	)
+	(junction
+		(at 184.15 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50d876db-0d08-48c0-b0f9-b1a822eb2e9a")
 	)
 	(junction
 		(at 105.41 92.71)
@@ -4762,6 +5095,12 @@
 		(uuid "8ac8ac9c-b8d7-46a0-beb6-3e8921c81bbc")
 	)
 	(junction
+		(at 210.82 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9658cd81-e367-454c-81c1-e0452080e10d")
+	)
+	(junction
 		(at 19.05 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4792,6 +5131,12 @@
 		(uuid "ae47d6ec-309e-4d3c-9614-042b7f1dc0ff")
 	)
 	(junction
+		(at 184.15 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aea508d1-edec-451e-9adc-772e0eb46521")
+	)
+	(junction
 		(at 21.59 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4816,10 +5161,28 @@
 		(uuid "ccf7e99a-8b3a-45f8-a960-2ae8a253eeaf")
 	)
 	(junction
+		(at 243.84 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceb2be72-7b15-4418-b477-8d389764f844")
+	)
+	(junction
 		(at 105.41 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3110110-9bdf-4ca7-ad13-c8c16f421260")
+	)
+	(junction
+		(at 218.44 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5be2726-6027-4668-8631-65b3aecdfef6")
+	)
+	(junction
+		(at 210.82 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5ed1127-da87-4f43-929a-2521e54247c3")
 	)
 	(junction
 		(at 105.41 133.35)
@@ -4839,6 +5202,12 @@
 		(color 0 0 0 0)
 		(uuid "e40d172d-662f-44f4-a97e-f627ad109dec")
 	)
+	(junction
+		(at 210.82 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8c5372d-dfa7-4e68-abfc-506f9ca248ac")
+	)
 	(no_connect
 		(at 38.1 39.37)
 		(uuid "22c546e8-4f5e-4987-b558-69330bea2497")
@@ -4854,6 +5223,26 @@
 	(no_connect
 		(at 38.1 41.91)
 		(uuid "f93f42f7-7239-4a2e-8e52-59155068d428")
+	)
+	(wire
+		(pts
+			(xy 180.34 123.19) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040cdebe-5d85-4591-93e8-d337c2c6f18d")
+	)
+	(wire
+		(pts
+			(xy 207.01 99.06) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0495dc5a-c4ed-45ba-a87a-fe211477925c")
 	)
 	(wire
 		(pts
@@ -4927,6 +5316,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 128.27) (xy 184.15 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0874a862-9d1b-40eb-838b-e9412ee63cf0")
+	)
+	(wire
+		(pts
 			(xy 105.41 92.71) (xy 106.68 92.71)
 		)
 		(stroke
@@ -4934,6 +5333,16 @@
 			(type default)
 		)
 		(uuid "09259a10-2959-4109-b910-03f8f170758e")
+	)
+	(wire
+		(pts
+			(xy 191.77 133.35) (xy 191.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c62896f-1eaa-47ca-8ab5-0e4e38b734cb")
 	)
 	(wire
 		(pts
@@ -4977,6 +5386,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 128.27) (xy 184.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124789fd-abdf-4b61-9b80-d63aeb9bf84d")
+	)
+	(wire
+		(pts
 			(xy 38.1 36.83) (xy 44.45 36.83)
 		)
 		(stroke
@@ -4984,6 +5403,16 @@
 			(type default)
 		)
 		(uuid "1392c99a-e350-4097-8143-921b6433071a")
+	)
+	(wire
+		(pts
+			(xy 191.77 116.84) (xy 191.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14692d24-c0ad-4fc5-aa85-292d7029cc78")
 	)
 	(wire
 		(pts
@@ -5017,7 +5446,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 143.51) (xy 195.58 137.16)
+			(xy 204.47 143.51) (xy 204.47 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5177,6 +5606,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 113.03) (xy 243.84 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca31b79-06cf-44f4-8123-f0572189e736")
+	)
+	(wire
+		(pts
 			(xy 19.05 83.82) (xy 21.59 83.82)
 		)
 		(stroke
@@ -5217,6 +5656,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 115.57) (xy 243.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360d2a1d-4441-407b-80bf-95b57494aa64")
+	)
+	(wire
+		(pts
+			(xy 224.79 119.38) (xy 243.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39da5c9f-70dd-4338-80cb-ab2bac276930")
+	)
+	(wire
+		(pts
 			(xy 38.1 44.45) (xy 39.37 44.45)
 		)
 		(stroke
@@ -5247,7 +5706,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 138.43) (xy 187.96 138.43)
+			(xy 195.58 138.43) (xy 196.85 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5257,7 +5716,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 148.59) (xy 203.2 137.16)
+			(xy 212.09 148.59) (xy 212.09 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5397,6 +5856,36 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 113.03) (xy 243.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d96b9d-c53f-4749-892e-20b3c54dba1e")
+	)
+	(wire
+		(pts
+			(xy 210.82 116.84) (xy 210.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5914b2eb-8308-4c32-9e22-41c6995d77b5")
+	)
+	(wire
+		(pts
+			(xy 184.15 96.52) (xy 191.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc6aae6-390d-4530-b3a4-e5f2171b1e40")
+	)
+	(wire
+		(pts
 			(xy 104.14 138.43) (xy 105.41 138.43)
 		)
 		(stroke
@@ -5437,6 +5926,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 123.19) (xy 218.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679f5c4c-4056-4fac-b24b-b91fa91d2254")
+	)
+	(wire
+		(pts
 			(xy 39.37 31.75) (xy 39.37 29.21)
 		)
 		(stroke
@@ -5474,6 +5973,16 @@
 			(type default)
 		)
 		(uuid "6a2c7ad6-ba86-43f8-b4c2-503133435205")
+	)
+	(wire
+		(pts
+			(xy 210.82 114.3) (xy 210.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8f78a8-c217-4964-b387-59a9ea992f65")
 	)
 	(wire
 		(pts
@@ -5537,7 +6046,27 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 143.51) (xy 195.58 143.51)
+			(xy 180.34 96.52) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73602777-fe2e-4956-ba12-1413f9c1832c")
+	)
+	(wire
+		(pts
+			(xy 191.77 102.87) (xy 210.82 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cf2a3e-ec4d-47a0-bee5-82d68a77dddf")
+	)
+	(wire
+		(pts
+			(xy 195.58 143.51) (xy 204.47 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5637,6 +6166,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 111.76) (xy 184.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d738f25-6076-43d1-be56-0b9b12ddf217")
+	)
+	(wire
+		(pts
 			(xy 93.98 49.53) (xy 93.98 36.83)
 		)
 		(stroke
@@ -5677,7 +6216,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 143.51) (xy 179.07 143.51)
+			(xy 167.64 143.51) (xy 187.96 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5717,6 +6256,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 95.25) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b0976b-b1b7-4824-b078-ad19e0885dd2")
+	)
+	(wire
+		(pts
 			(xy 52.07 60.96) (xy 52.07 62.23)
 		)
 		(stroke
@@ -5734,6 +6283,16 @@
 			(type default)
 		)
 		(uuid "a2a72f54-bf65-4883-a4b7-07664be620aa")
+	)
+	(wire
+		(pts
+			(xy 240.03 115.57) (xy 243.84 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a348e68d-adbc-4c42-ba94-d1084d693e83")
 	)
 	(wire
 		(pts
@@ -5757,6 +6316,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 114.3) (xy 191.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b4c76d-7c88-4ea2-8993-0039babb3cd0")
+	)
+	(wire
+		(pts
 			(xy 104.14 113.03) (xy 105.41 113.03)
 		)
 		(stroke
@@ -5774,6 +6343,16 @@
 			(type default)
 		)
 		(uuid "a96a908a-3081-47b8-a923-8b28eaa678df")
+	)
+	(wire
+		(pts
+			(xy 210.82 96.52) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99e808f-a795-4586-a60b-009ec9620a34")
 	)
 	(wire
 		(pts
@@ -5847,6 +6426,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 123.19) (xy 218.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f8129b-3763-49c7-b800-4f72c321d81a")
+	)
+	(wire
+		(pts
 			(xy 93.98 179.07) (xy 96.52 179.07)
 		)
 		(stroke
@@ -5854,6 +6443,16 @@
 			(type default)
 		)
 		(uuid "b47d41af-6fcb-4670-aa9a-16f058ae0092")
+	)
+	(wire
+		(pts
+			(xy 210.82 96.52) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b92d1a-1f82-4dfd-80e8-b1175de21f0e")
 	)
 	(wire
 		(pts
@@ -5877,7 +6476,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 138.43) (xy 187.96 137.16)
+			(xy 196.85 138.43) (xy 196.85 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5957,6 +6556,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 133.35) (xy 191.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ebb27f-7511-4d3b-b633-ad696f2b8dce")
+	)
+	(wire
+		(pts
 			(xy 68.58 50.8) (xy 68.58 49.53)
 		)
 		(stroke
@@ -5964,6 +6573,16 @@
 			(type default)
 		)
 		(uuid "cd1fa4f9-c8c8-40b0-ae13-4c2e07442700")
+	)
+	(wire
+		(pts
+			(xy 191.77 99.06) (xy 191.77 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfaeaa29-ad46-44bf-bfac-28858194419c")
 	)
 	(wire
 		(pts
@@ -6057,6 +6676,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 113.03) (xy 224.79 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df933074-2765-4110-bfce-70284b34cfde")
+	)
+	(wire
+		(pts
 			(xy 105.41 102.87) (xy 105.41 107.95)
 		)
 		(stroke
@@ -6064,6 +6693,16 @@
 			(type default)
 		)
 		(uuid "dfa334f5-d7f6-464a-8fbf-f262111be4d5")
+	)
+	(wire
+		(pts
+			(xy 191.77 120.65) (xy 210.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e40d00-0e34-4c99-b1de-87f77ffb34d3")
 	)
 	(wire
 		(pts
@@ -6087,6 +6726,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 102.87) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40a3c58-6e02-4e8e-bdbd-f4c156b221ec")
+	)
+	(wire
+		(pts
 			(xy 105.41 148.59) (xy 106.68 148.59)
 		)
 		(stroke
@@ -6094,6 +6743,16 @@
 			(type default)
 		)
 		(uuid "e47f22ec-8aec-4f04-8f01-5c36673a51f1")
+	)
+	(wire
+		(pts
+			(xy 224.79 115.57) (xy 224.79 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e534b07d-2151-44c1-8693-7601864d76c3")
 	)
 	(wire
 		(pts
@@ -6127,7 +6786,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 148.59) (xy 203.2 148.59)
+			(xy 218.44 111.76) (xy 218.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1d5602-dc75-4c0e-8bf1-b47774cfc410")
+	)
+	(wire
+		(pts
+			(xy 186.69 148.59) (xy 212.09 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6144,6 +6813,16 @@
 			(type default)
 		)
 		(uuid "f0b742b3-7624-430c-adb4-74c98dbc1c2f")
+	)
+	(wire
+		(pts
+			(xy 167.64 123.19) (xy 180.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f109a18d-07f6-4ebd-8f5d-21fee241d754")
 	)
 	(wire
 		(pts
@@ -6167,13 +6846,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 138.43) (xy 179.07 138.43)
+			(xy 167.64 138.43) (xy 187.96 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4c14e83-56cc-4c43-b328-c3fc3fe1d7aa")
+	)
+	(wire
+		(pts
+			(xy 207.01 114.3) (xy 210.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c24873-98f5-483c-87e3-2c5b4ff1a25a")
 	)
 	(wire
 		(pts
@@ -6204,6 +6893,16 @@
 			(type default)
 		)
 		(uuid "f8eace40-b56c-4ed8-aba2-6a8cb2b8e6e6")
+	)
+	(wire
+		(pts
+			(xy 207.01 116.84) (xy 210.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc566b03-27f9-4896-9d08-db49ddcde5b3")
 	)
 	(wire
 		(pts
@@ -6486,6 +7185,119 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "carter_kicad_symbols:1825027-8 Right Angle Button")
+		(at 224.79 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "001c88be-3386-4b71-86df-804c9db84576")
+		(property "Reference" "SW3"
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1825027-8"
+			(at 225.552 100.838 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "carter_kicad_footprints:SW2_1825027-C_TEC"
+			(at 226.06 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825027&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1825027-8"
+			(at 225.044 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Side Actuated Through Hole, Right Angle"
+			(at 224.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity ALCOSWITCH Switches"
+			(at 224.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1825027-8"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "450-1657-ND"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPN" "C266196"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8209665f-6279-4f86-a9a7-9e6ba8170a5d")
+		)
+		(pin "2"
+			(uuid "2ecbdbcb-51d3-4e47-8fbc-1c4b898b677d")
+		)
+		(pin "4"
+			(uuid "96f80da1-1929-46bd-b30a-152aed83d44f")
+		)
+		(pin "1"
+			(uuid "90456e7c-89bc-4fb0-8c48-e37f711f0a9e")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "SW3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6784,6 +7596,73 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 243.84 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "037d1dbe-5103-447a-ab04-3790144395f9")
+		(property "Reference" "#PWR0111"
+			(at 243.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "325edfa8-b792-4d6b-9736-672eb25d51d8")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -7312,16 +8191,15 @@
 	(symbol
 		(lib_name "+3V3_3")
 		(lib_id "power:+3V3")
-		(at 187.96 127 0)
+		(at 196.85 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "167d9e3e-97d0-46e2-9920-8fc7ff902055")
 		(property "Reference" "#PWR055"
-			(at 187.96 130.81 0)
+			(at 196.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,7 +8208,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 187.96 121.92 0)
+			(at 200.152 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +8216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 127 0)
+			(at 196.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +8225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 127 0)
+			(at 196.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +8234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 187.96 127 0)
+			(at 196.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,6 +8486,73 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 210.82 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eedc3f3-638e-4619-a534-8142f53e34e7")
+		(property "Reference" "#PWR0109"
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71fd0eda-571f-4a63-b1c9-b52dc0562137")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -7928,7 +8873,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 182.88 143.51 90)
+		(at 191.77 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7936,7 +8881,7 @@
 		(dnp no)
 		(uuid "35c9ce85-0609-49e9-8371-1c80c6d0f744")
 		(property "Reference" "R22"
-			(at 182.88 141.224 90)
+			(at 191.77 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +8889,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 182.88 143.51 90)
+			(at 191.77 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +8897,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 182.88 145.288 90)
+			(at 191.77 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +8906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 143.51 0)
+			(at 191.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +8915,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 143.51 0)
+			(at 191.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +8923,7 @@
 			)
 		)
 		(property "DigiKeyPN" ""
-			(at 182.88 143.51 90)
+			(at 191.77 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +8932,7 @@
 			)
 		)
 		(property "DigikeyPN" "P5.10KHCT-ND"
-			(at 182.88 143.51 90)
+			(at 191.77 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8336,6 +9281,142 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_3")
+		(lib_id "power:+3V3")
+		(at 184.15 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4413b7f0-a742-4d7d-bb5b-2df02944f964")
+		(property "Reference" "#PWR0108"
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 183.388 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cf8df3f-77fe-46de-9330-e13514504058")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45063e4c-637f-4d07-b94c-54f1bd364de3")
+		(property "Reference" "R43"
+			(at 186.69 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 186.69 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 182.372 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b6cbb0b-d674-4d0b-b516-8f93462aa117")
+		)
+		(pin "2"
+			(uuid "2423f1b2-e5ea-454d-a578-cd75f9010ed3")
+		)
+		(instances
+			(project ""
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -10020,6 +11101,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 218.44 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80f1fe3c-c024-4eff-b4b3-7bb582dc9022")
+		(property "Reference" "R44"
+			(at 220.98 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 220.98 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 216.662 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d1fd07a-ee57-46ce-a077-fce013ba2a4c")
+		)
+		(pin "2"
+			(uuid "02564f4c-ccf5-48b3-a46f-08fadf2ec2f1")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Eclectronics:W25Q128JV")
 		(at 71.12 74.93 0)
 		(unit 1)
@@ -10285,6 +11436,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 184.15 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85e71075-351c-41b8-a61d-c76e9fc602e4")
+		(property "Reference" "R45"
+			(at 186.69 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 186.69 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 182.372 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24a226ad-6cc3-4fba-aa97-7f245bb8654e")
+		)
+		(pin "2"
+			(uuid "059f0084-7c0d-4a17-a8e3-af98774e71e0")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 204.47 34.29 0)
 		(mirror x)
@@ -10367,6 +11588,119 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "carter_kicad_symbols:1825027-8 Right Angle Button")
+		(at 191.77 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a7ca4c8-2636-40bf-8d12-8800a8e03f3c")
+		(property "Reference" "SW2"
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1825027-8"
+			(at 192.532 102.108 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "carter_kicad_footprints:SW2_1825027-C_TEC"
+			(at 193.04 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825027&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1825027-8"
+			(at 192.024 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Side Actuated Through Hole, Right Angle"
+			(at 191.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity ALCOSWITCH Switches"
+			(at 191.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1825027-8"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "450-1657-ND"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPN" "C266196"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9e639269-304e-4b17-b01b-2aa369bc9a70")
+		)
+		(pin "2"
+			(uuid "2befb87a-d31e-404f-b61e-7330f801cc7d")
+		)
+		(pin "4"
+			(uuid "8dfa4057-76b6-44e3-bc28-ab70b6531a6e")
+		)
+		(pin "1"
+			(uuid "cd6f7d6f-c9d8-45e1-bbc4-4290c53f0f16")
+		)
+		(instances
+			(project ""
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10914,7 +12248,7 @@
 		(dnp no)
 		(uuid "9ffa951e-a1b0-4f28-8ab8-a89a9e55ec61")
 		(property "Reference" "R23"
-			(at 182.88 146.304 90)
+			(at 191.77 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,6 +12317,72 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_3")
+		(lib_id "power:+3V3")
+		(at 218.44 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a558d23e-2b84-4bd2-b2ee-0cdfbdfb88c7")
+		(property "Reference" "#PWR0112"
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 217.678 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab5085ae-a67a-4d70-8ec1-9ff4825b0ac5")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -11076,8 +12476,75 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 210.82 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a65ceec8-570e-4b14-9190-cf0767a025e0")
+		(property "Reference" "#PWR0110"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14552a51-fdc1-4f44-bbf7-5da361bf151d")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 182.88 138.43 90)
+		(at 191.77 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11085,7 +12552,7 @@
 		(dnp no)
 		(uuid "ae6ab99a-7bf9-4f69-85ce-ca93b40779b9")
 		(property "Reference" "R21"
-			(at 182.88 136.144 90)
+			(at 191.77 136.144 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11093,7 +12560,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 182.88 138.43 90)
+			(at 191.77 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,7 +12568,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 182.88 140.208 90)
+			(at 191.77 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11110,7 +12577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 138.43 0)
+			(at 191.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11119,7 +12586,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 138.43 0)
+			(at 191.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11127,7 +12594,7 @@
 			)
 		)
 		(property "DigiKeyPN" ""
-			(at 182.88 138.43 90)
+			(at 191.77 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +12603,7 @@
 			)
 		)
 		(property "DigikeyPN" "311-1.00KHRCT-ND"
-			(at 182.88 138.43 90)
+			(at 191.77 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11590,6 +13057,119 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "carter_kicad_symbols:1825027-8 Right Angle Button")
+		(at 191.77 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc01fa39-098b-4036-a0d2-29b174f28eb0")
+		(property "Reference" "SW4"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1825027-8"
+			(at 192.532 84.328 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "carter_kicad_footprints:SW2_1825027-C_TEC"
+			(at 193.04 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825027&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1825027-8"
+			(at 192.024 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Side Actuated Through Hole, Right Angle"
+			(at 191.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity ALCOSWITCH Switches"
+			(at 191.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1825027-8"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "450-1657-ND"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSCPN" "C266196"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "457b9574-3984-47ee-8c6e-89dfab2fcf62")
+		)
+		(pin "2"
+			(uuid "aed8d46c-3ea8-41a1-9f04-57a0023a6127")
+		)
+		(pin "4"
+			(uuid "5cbb30ac-f4cb-4d83-882f-aefb834e6bb8")
+		)
+		(pin "1"
+			(uuid "e61ce69b-0933-453b-a80f-3391783c4172")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -12288,7 +13868,7 @@
 	)
 	(symbol
 		(lib_id "Eclectronics:IN-S85TATRGB")
-		(at 195.58 133.35 0)
+		(at 204.47 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12297,7 +13877,7 @@
 		(fields_autoplaced yes)
 		(uuid "e06ac53d-a966-4d44-8537-20e998a46b92")
 		(property "Reference" "D4"
-			(at 207.01 131.7497 0)
+			(at 215.9 131.7497 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12306,7 +13886,7 @@
 			)
 		)
 		(property "Value" "IN-S85TATRGB"
-			(at 207.01 134.2897 0)
+			(at 215.9 134.2897 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12315,7 +13895,7 @@
 			)
 		)
 		(property "Footprint" "Eclectronics:IN-S85TATRGB"
-			(at 195.58 133.35 0)
+			(at 204.47 133.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12324,7 +13904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 133.35 0)
+			(at 204.47 133.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12333,7 +13913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 133.35 0)
+			(at 204.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12342,7 +13922,7 @@
 			)
 		)
 		(property "DigiKeyPN" ""
-			(at 195.58 133.35 0)
+			(at 204.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12351,7 +13931,7 @@
 			)
 		)
 		(property "DigikeyPN" "1830-1086-1-ND"
-			(at 195.58 133.35 0)
+			(at 204.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12375,6 +13955,73 @@
 			(project "nixie-tube-clock"
 				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_3")
+		(lib_id "power:+3V3")
+		(at 184.15 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e31135b6-97be-48e6-855e-4d70217b619c")
+		(property "Reference" "#PWR0107"
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef3e9ba4-b9e0-4968-8300-eb05c6b3c789")
+		)
+		(instances
+			(project "nixie-tube-clock"
+				(path "/a9820232-e60b-442f-bf19-e58448ec1fae/c3042731-628e-4c53-9276-3a8f19129a46"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
