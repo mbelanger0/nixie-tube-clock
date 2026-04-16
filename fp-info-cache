@@ -1,4 +1,4 @@
-27441522825873742
+27446851195706681
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108192,12 +108192,26 @@ Inductor
 2
 2
 carter_kicad_footprints
+CAP_6.3_6.3
+
+EEE-FTH101XAP 
+0
+2
+2
+carter_kicad_footprints
 COM-16347_SPK
 
 COM-16347 
 0
 4
 4
+carter_kicad_footprints
+DBV0006A_N
+
+SN74LVC1T45DBVR 
+0
+6
+6
 carter_kicad_footprints
 DIO_MM3Z3V0T1G
 
@@ -108492,6 +108506,13 @@ Integrated Circuit
 0
 5
 5
+eclectronics_nixie_footprints
+SW2_1825027-C_TEC
+
+1825027-8 
+0
+4
+4
 eclectronics_nixie_footprints
 WE-PD_1210
 

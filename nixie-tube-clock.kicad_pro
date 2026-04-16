@@ -668,7 +668,7 @@
           "group_by": false,
           "label": "LCSCPN",
           "name": "LCSCPN",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
