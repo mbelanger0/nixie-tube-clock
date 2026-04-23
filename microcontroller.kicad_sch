@@ -7036,7 +7036,7 @@
 	)
 	(global_label "SR_CLK_3V3"
 		(shape input)
-		(at 167.64 82.55 0)
+		(at 167.64 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7046,7 +7046,7 @@
 		)
 		(uuid "208dfe8b-0f99-4945-a95e-86bf8b0be13d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.1156 82.55 0)
+			(at 182.1156 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,7 +7124,7 @@
 	)
 	(global_label "SR_DATA_IN_3V3"
 		(shape input)
-		(at 167.64 77.47 0)
+		(at 167.64 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7134,7 +7134,7 @@
 		)
 		(uuid "b5f7a6c1-1e86-4c69-9ae6-d0a2aa10fbe0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8652 77.47 0)
+			(at 185.8652 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
